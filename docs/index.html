@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>고립청년 지원 정보 허브</title>
+<style>
+  :root {
+    --left-color: #2563eb;
+    --right-color: #16a34a;
+    --bg: #f8fafc;
+    --card-bg: #ffffff;
+    --text: #1e293b;
+    --muted: #64748b;
+    --border: #e2e8f0;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    padding: 24px 20px;
+    text-align: center;
+    border-bottom: 1px solid var(--border);
+    background: var(--card-bg);
+  }
+  header h1 { margin: 0 0 4px; font-size: 22px; }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 24px auto;
+    padding: 0 20px;
+  }
+  @media (max-width: 768px) {
+    main { grid-template-columns: 1fr; }
+  }
+  section.column {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  section.column h2 {
+    font-size: 16px;
+    margin: 0 0 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid currentColor;
+  }
+  .left h2 { color: var(--left-color); }
+  .right h2 { color: var(--right-color); }
+  ul.list { list-style: none; margin: 0; padding: 0; }
+  ul.list li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  ul.list li:last-child { border-bottom: none; }
+  ul.list a {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+  }
+  ul.list a:hover { text-decoration: underline; }
+  .meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .empty { color: var(--muted); font-size: 13px; padding: 20px 0; text-align: center; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 12px;
+    padding: 20px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>고립청년 지원 정보 허브</h1>
+  <p id="updated-at">불러오는 중...</p>
+</header>
+<main>
+  <section class="column left">
+    <h2>지정 단체·기업 소식</h2>
+    <ul class="list" id="left-list"><li class="empty">불러오는 중...</li></ul>
+  </section>
+  <section class="column right">
+    <h2>고립청년 공모·지원사업</h2>
+    <ul class="list" id="right-list"><li class="empty">불러오는 중...</li></ul>
+  </section>
+</main>
+<footer>매일 오전 9시(KST) 자동 갱신 · 조회 전용 사이트</footer>
+<script>
+async function loadColumn(file, listId) {
+  const el = document.getElementById(listId);
+  try {
+    const res = await fetch(`data/${file}?t=${Date.now()}`);
+    if (!res.ok) throw new Error(res.status);
+    const data = await res.json();
+    const items = data.items || [];
+    if (!items.length) {
+      el.innerHTML = '<li class="empty">아직 수집된 항목이 없습니다.</li>';
+      return data.updated_at;
+    }
+    el.innerHTML = items.map(it => `
+      <li>
+        <a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
+        <div class="meta">${it.source || ""}${it.date ? " · " + it.date : ""}</div>
+      </li>
+    `).join("");
+    return data.updated_at;
+  } catch (e) {
+    el.innerHTML = '<li class="empty">데이터를 불러오지 못했습니다.</li>';
+    return null;
+  }
+}
+
+(async () => {
+  const [leftUpdated, rightUpdated] = await Promise.all([
+    loadColumn("left.json", "left-list"),
+    loadColumn("right.json", "right-list"),
+  ]);
+  const updated = leftUpdated || rightUpdated;
+  document.getElementById("updated-at").textContent = updated
+    ? `마지막 업데이트: ${updated}`
+    : "아직 데이터가 수집되지 않았습니다.";
+})();
+</script>
+</body>
+</html>

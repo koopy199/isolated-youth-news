@@ -1,0 +1,15 @@
+{
+  "name": "isolated-youth-news-scraper",
+  "version": "1.0.0",
+  "description": "고립청년 지원 정보 허브 수집기",
+  "main": "scrape-left.js",
+  "scripts": {
+    "scrape:left": "node scrape-left.js",
+    "scrape:right": "node scrape-right.js",
+    "discover:foundations": "node discover-foundations.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0"
+  }
+}
