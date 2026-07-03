@@ -1,14 +1,18 @@
 /**
- * 우측: 고립청년 공모·지원사업 소식 수집기
- * - 포털 검색: 네이버/다음/구글 (각각 무료 API 키 필요, 없으면 해당 포털만 건너뜀)
+ * 우측: 고립청년 공모·지원사업 수집기
+ * 뉴스 기사가 아니라 "실제 지금 모집 중인 공모사업"을 목표로, 주요 배분기관의
+ * 공모사업 게시판을 직접 크롤링한다.
+ * - 사랑의열매 온라인 배분신청 사이트 (전국 공모사업 목록)
+ * - 아름다운재단 배분신청 사이트 (WordPress 검색 API)
  * - 재단 후보 홈페이지: discover-foundations.js가 캐싱해둔 목록
  * - 관련 단체 홈페이지: 좌측 7개 단체 목록 재사용
+ * 매일 새로 수집한 결과로 교체한다 (좌측과 동일하게 누적하지 않음 —
+ * "지금 모집 중인" 정보라 지난 결과를 계속 쌓아둘 이유가 없음).
  */
 const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const path = require("path");
-const { searchNaver, searchDaum, searchGoogle } = require("./search-utils");
 
 const OUT_PATH = path.join(__dirname, "..", "docs", "data", "right.json");
 const FOUNDATIONS_PATH = path.join(__dirname, "..", "docs", "data", "foundations.json");
@@ -17,8 +21,6 @@ const HEADERS = {
   "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36",
   "Accept-Language": "ko-KR,ko;q=0.9",
 };
-
-const KEYWORDS = ["고립청년 지원사업", "고립청년 공모사업"];
 
 function strip(t) { return (t || "").replace(/\s+/g, " ").replace(/&[a-z#0-9]+;/gi, " ").trim(); }
 
@@ -41,44 +43,79 @@ function normalizeDate(str) {
   return str.slice(0, 10);
 }
 
-function dateTs(str) {
-  const d = new Date(str || "");
-  return isNaN(d) ? 0 : d.getTime();
-}
-
 function hasGrant(title) {
   // "모집"/"신청"/"공고" 단독은 행사 참가자 모집 등과 겹쳐 오탐이 많아 제외하고,
   // 지원금·공모사업 성격이 뚜렷한 복합어 위주로 판단한다.
   return /공모사업|공모전|지원사업|지원금|보조금|사업\s?공고|모집\s?공고/.test(title);
 }
 
-// 포털 뉴스검색이 "청년"/"지원" 등 낱말만 겹쳐도 무관한 지역뉴스를 끌어오는 경우가 많아,
-// 제목에 "고립" 또는 "은둔"이 포함된 것만 최소한으로 통과시킨다.
-function isOnTopic(title) {
-  return /고립|은둔/.test(title);
+// 사랑의열매·아름다운재단은 아동·노인·장애인 등 다양한 대상을 함께 다루므로,
+// "고립"/"은둔"/"청년" 중 하나라도 언급된 것만 통과시켜 좁힌다.
+function isYouthRelated(title) {
+  return /고립|은둔|청년/.test(title);
 }
 
-// ── 포털 검색 (네이버/다음/구글) ────────────────────────────────
-async function scrapePortals() {
+// 아름다운재단 공지사항엔 "모집 공고"뿐 아니라 이미 마감된 "결과발표"류 게시물도
+// 섞여 있어, 지금 신청 가능한 공모만 남기도록 마감/발표성 문구는 제외한다.
+function isClosedAnnouncement(title) {
+  return /결과\s?발표|선정자\s?발표|선정\s?결과|서류심사|최종선정/.test(title);
+}
+
+// "(2026.05.22. 접수마감)"처럼 제목에 마감일이 박혀 있는 경우, 그 날짜가
+// 이미 지났으면(오늘 이후 재수집해도 계속 노출되는 걸 방지) 제외한다.
+function isPastDeadline(title) {
+  const m = title.match(/(\d{4})[.\-\s]*(\d{1,2})[.\-\s]*(\d{1,2})\.?\s*접수\s?마감/);
+  if (!m) return false;
+  const d = new Date(`${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`);
+  return !isNaN(d) && d.getTime() < Date.now();
+}
+
+// ── 사랑의열매 온라인 배분신청 (전국 공모사업 목록) ────────────────
+async function scrapeChest() {
+  const listUrl = "https://proposal.chest.or.kr/main/mainBusinessList.do";
+  const res = await axios.get(listUrl, {
+    headers: { ...HEADERS, Referer: "https://proposal.chest.or.kr/" },
+    timeout: 15000,
+  });
+  const $ = cheerio.load(res.data);
   const items = [];
-  for (const kw of KEYWORDS) {
-    const [naver, daum, google] = await Promise.all([
-      searchNaver(kw, 10),
-      searchDaum(kw, 10),
-      searchGoogle(kw, 10),
-    ]);
-    for (const it of [...naver, ...daum, ...google].filter(it => isOnTopic(it.title))) {
-      items.push({
-        title: it.title, url: it.url, date: it.date,
-        source: it.portal, source_url: "",
-        keyword: kw,
+  $("tr").each((_, tr) => {
+    const cells = $(tr).find("td").map((__, td) => strip($(td).text())).get();
+    if (cells.length < 3) return;
+    const [, title, deadline] = cells;
+    if (!title || !isYouthRelated(title)) return;
+    // 목록의 링크는 javascript:fn_goDetail(bsnsCode, bhfCode, appnDocNo) 형태라
+    // 실제 상세페이지 URL(/popup/mainBusinessDetail.do)을 직접 조립해야 한다.
+    const onclick = $(tr).find("a").attr("href") || "";
+    const m = onclick.match(/fn_goDetail\('([^']*)','([^']*)','([^']*)'/);
+    const url = m
+      ? `https://proposal.chest.or.kr/popup/mainBusinessDetail.do?dstbBsnsCode=${m[1]}&appnDocNo=${m[3]}`
+      : "https://proposal.chest.or.kr/";
+    items.push({ title, url, date: deadline, source: "사랑의열매", source_url: "https://proposal.chest.or.kr/" });
+  });
+  return items;
+}
+
+// ── 아름다운재단 배분신청 사이트 (WordPress 검색 API) ──────────────
+async function scrapeBeautifulFund() {
+  const items = [];
+  for (const kw of ["청년", "고립", "은둔"]) {
+    try {
+      const res = await axios.get("https://change.beautifulfund.org/wp-json/wp/v2/posts", {
+        params: { search: kw, per_page: 10, orderby: "date" },
+        headers: HEADERS, timeout: 15000,
       });
-    }
+      for (const p of res.data) {
+        const title = strip(p.title.rendered);
+        if (!isYouthRelated(title) || isClosedAnnouncement(title) || isPastDeadline(title)) continue;
+        items.push({ title, url: p.link, date: p.date.slice(0, 10), source: "아름다운재단", source_url: "https://change.beautifulfund.org/" });
+      }
+    } catch (e) { console.log(`  아름다운재단(${kw}) 오류: ${e.message.slice(0, 60)}`); }
   }
   return items;
 }
 
-// ── 홈페이지 크롤링 (재단/단체 공용) ──────────────────────────────
+// ── 홈페이지 크롤링 (재단 후보/관련 단체 공용) ─────────────────────
 async function scrapeSite(name, url) {
   const res = await axios.get(url, { headers: HEADERS, timeout: 15000 });
   const $ = cheerio.load(res.data);
@@ -111,25 +148,26 @@ function loadLeftSources() {
 async function main() {
   fs.mkdirSync(path.dirname(OUT_PATH), { recursive: true });
 
-  let existingItems = [];
-  if (fs.existsSync(OUT_PATH)) {
-    try { existingItems = JSON.parse(fs.readFileSync(OUT_PATH, "utf-8")).items || []; }
-    catch { console.log("기존 데이터 로드 실패, 새로 시작"); }
-  }
-  // 필터 기준이 바뀌어도 예전에 쌓인 데이터가 계속 남지 않도록, 누적된 항목도 매번 현재 기준으로 재검증한다.
-  existingItems = existingItems.filter(it => it.keyword ? isOnTopic(it.title) : hasGrant(it.title));
+  const allItems = [];
 
-  const newItems = [];
+  console.log("[사랑의열매]");
+  try {
+    const items = await scrapeChest();
+    allItems.push(...items);
+    console.log(`  → ${items.length}건`);
+  } catch (e) { console.log(`  오류: ${e.message.slice(0, 60)}`); }
 
-  console.log("[포털 검색]");
-  newItems.push(...await scrapePortals());
+  console.log("[아름다운재단]");
+  const bfItems = await scrapeBeautifulFund();
+  allItems.push(...bfItems);
+  console.log(`  → ${bfItems.length}건`);
 
   console.log("\n[재단 홈페이지 (캐싱된 후보 목록)]");
   for (const f of loadFoundations()) {
     process.stdout.write(`  ${f.name}... `);
     try {
       const items = await scrapeSite(f.name, f.url);
-      newItems.push(...items);
+      allItems.push(...items);
       console.log(`${items.length}건`);
     } catch (e) { console.log(`오류: ${e.message.slice(0, 60)}`); }
   }
@@ -139,23 +177,22 @@ async function main() {
     process.stdout.write(`  ${s.name}... `);
     try {
       const items = await scrapeSite(s.name, s.url);
-      newItems.push(...items);
+      allItems.push(...items);
       console.log(`${items.length}건`);
     } catch (e) { console.log(`오류: ${e.message.slice(0, 60)}`); }
   }
 
-  newItems.forEach(it => { it.date = normalizeDate(it.date); });
+  allItems.forEach(it => { it.date = normalizeDate(it.date); });
 
   const seenKeys = new Set();
-  const merged = [];
-  for (const item of [...newItems, ...existingItems]) {
+  const deduped = [];
+  for (const item of allItems) {
     const key = (item.url || "").trim() || (item.title || "").trim();
-    if (key && !seenKeys.has(key)) { seenKeys.add(key); merged.push(item); }
+    if (key && !seenKeys.has(key)) { seenKeys.add(key); deduped.push(item); }
   }
-  merged.sort((a, b) => dateTs(b.date) - dateTs(a.date));
 
-  fs.writeFileSync(OUT_PATH, JSON.stringify({ updated_at: isoNow(), total: merged.length, items: merged }, null, 2), "utf-8");
-  console.log(`\n저장 완료 → ${OUT_PATH} (총 ${merged.length}건)`);
+  fs.writeFileSync(OUT_PATH, JSON.stringify({ updated_at: isoNow(), total: deduped.length, items: deduped }, null, 2), "utf-8");
+  console.log(`\n저장 완료 → ${OUT_PATH} (총 ${deduped.length}건)`);
 }
 
 main().catch(e => { console.error("오류:", e.message); process.exit(1); });
