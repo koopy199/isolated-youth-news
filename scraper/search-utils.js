@@ -11,6 +11,14 @@ const HEADERS = {
 
 function strip(t) { return (t || "").replace(/\s+/g, " ").replace(/&[a-z#0-9]+;/gi, " ").trim(); }
 
+// axios 에러 메시지는 "Request failed with status code 403"처럼 원인을 알려주지 않으므로,
+// 응답 바디에 담긴 실제 에러 설명을 우선적으로 뽑아낸다.
+function errDetail(e) {
+  const body = e.response?.data;
+  const msg = body?.error?.message || (typeof body === "string" ? body.slice(0, 200) : null);
+  return msg || e.message;
+}
+
 async function searchNaver(keyword, count = 10) {
   const cid = process.env.NAVER_CLIENT_ID || "";
   const cs = process.env.NAVER_CLIENT_SECRET || "";
@@ -28,7 +36,7 @@ async function searchNaver(keyword, count = 10) {
       date: it.pubDate || "",
       portal: "네이버",
     }));
-  } catch (e) { console.log(`  (네이버:${keyword}) 오류: ${e.message.slice(0, 60)}`); return []; }
+  } catch (e) { console.log(`  (네이버:${keyword}) 오류: ${errDetail(e).slice(0, 200)}`); return []; }
 }
 
 async function searchDaum(keyword, count = 10) {
@@ -47,7 +55,7 @@ async function searchDaum(keyword, count = 10) {
       date: it.datetime || "",
       portal: "다음",
     }));
-  } catch (e) { console.log(`  (다음:${keyword}) 오류: ${e.message.slice(0, 60)}`); return []; }
+  } catch (e) { console.log(`  (다음:${keyword}) 오류: ${errDetail(e).slice(0, 200)}`); return []; }
 }
 
 async function searchGoogle(keyword, count = 10) {
@@ -66,7 +74,7 @@ async function searchGoogle(keyword, count = 10) {
       date: "",
       portal: "구글",
     }));
-  } catch (e) { console.log(`  (구글:${keyword}) 오류: ${e.message.slice(0, 60)}`); return []; }
+  } catch (e) { console.log(`  (구글:${keyword}) 오류: ${errDetail(e).slice(0, 200)}`); return []; }
 }
 
 module.exports = { searchNaver, searchDaum, searchGoogle };
