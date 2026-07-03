@@ -54,6 +54,13 @@
   }
   .left h2 { color: var(--left-color); }
   .right h2 { color: var(--right-color); }
+  h3.sub-heading {
+    font-size: 13px;
+    color: var(--muted);
+    margin: 18px 0 8px;
+    font-weight: 600;
+  }
+  h3.sub-heading:first-of-type { margin-top: 0; }
   ul.list { list-style: none; margin: 0; padding: 0; }
   ul.list li {
     padding: 10px 0;
@@ -89,40 +96,55 @@
   </section>
   <section class="column right">
     <h2>고립청년 공모·지원사업</h2>
-    <ul class="list" id="right-list"><li class="empty">불러오는 중...</li></ul>
+    <h3 class="sub-heading">지금 모집 중</h3>
+    <ul class="list" id="right-open-list"><li class="empty">불러오는 중...</li></ul>
+    <h3 class="sub-heading">마감된 공모사업</h3>
+    <ul class="list" id="right-closed-list"><li class="empty">불러오는 중...</li></ul>
   </section>
 </main>
 <footer>매일 오전 9시(KST) 자동 갱신 · 조회 전용 사이트</footer>
 <script>
-async function loadColumn(file, listId) {
+function renderList(listId, items) {
   const el = document.getElementById(listId);
+  if (!items.length) {
+    el.innerHTML = '<li class="empty">아직 수집된 항목이 없습니다.</li>';
+    return;
+  }
+  el.innerHTML = items.map(it => `
+    <li>
+      <a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
+      <div class="meta">${it.source || ""}${it.date ? " · " + it.date : ""}</div>
+    </li>
+  `).join("");
+}
+
+async function fetchData(file) {
   try {
     const res = await fetch(`data/${file}?t=${Date.now()}`);
     if (!res.ok) throw new Error(res.status);
-    const data = await res.json();
-    const items = data.items || [];
-    if (!items.length) {
-      el.innerHTML = '<li class="empty">아직 수집된 항목이 없습니다.</li>';
-      return data.updated_at;
-    }
-    el.innerHTML = items.map(it => `
-      <li>
-        <a href="${it.url}" target="_blank" rel="noopener">${it.title}</a>
-        <div class="meta">${it.source || ""}${it.date ? " · " + it.date : ""}</div>
-      </li>
-    `).join("");
-    return data.updated_at;
+    return await res.json();
   } catch (e) {
-    el.innerHTML = '<li class="empty">데이터를 불러오지 못했습니다.</li>';
     return null;
   }
 }
 
+async function loadLeft() {
+  const data = await fetchData("left.json");
+  if (!data) { renderList("left-list", []); return null; }
+  renderList("left-list", data.items || []);
+  return data.updated_at;
+}
+
+async function loadRight() {
+  const data = await fetchData("right.json");
+  if (!data) { renderList("right-open-list", []); renderList("right-closed-list", []); return null; }
+  renderList("right-open-list", data.open || []);
+  renderList("right-closed-list", data.closed || []);
+  return data.updated_at;
+}
+
 (async () => {
-  const [leftUpdated, rightUpdated] = await Promise.all([
-    loadColumn("left.json", "left-list"),
-    loadColumn("right.json", "right-list"),
-  ]);
+  const [leftUpdated, rightUpdated] = await Promise.all([loadLeft(), loadRight()]);
   const updated = leftUpdated || rightUpdated;
   document.getElementById("updated-at").textContent = updated
     ? `마지막 업데이트: ${updated}`

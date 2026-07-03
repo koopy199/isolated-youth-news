@@ -56,18 +56,23 @@ function isYouthRelated(title) {
 }
 
 // 아름다운재단 공지사항엔 "모집 공고"뿐 아니라 이미 마감된 "결과발표"류 게시물도
-// 섞여 있어, 지금 신청 가능한 공모만 남기도록 마감/발표성 문구는 제외한다.
+// 섞여 있다. 삭제하지 않고 "closed"로 분류해 화면 하단에 따로 보여준다.
 function isClosedAnnouncement(title) {
   return /결과\s?발표|선정자\s?발표|선정\s?결과|서류심사|최종선정/.test(title);
 }
 
 // "(2026.05.22. 접수마감)"처럼 제목에 마감일이 박혀 있는 경우, 그 날짜가
-// 이미 지났으면(오늘 이후 재수집해도 계속 노출되는 걸 방지) 제외한다.
+// 이미 지났으면 "closed"로 분류한다.
 function isPastDeadline(title) {
   const m = title.match(/(\d{4})[.\-\s]*(\d{1,2})[.\-\s]*(\d{1,2})\.?\s*접수\s?마감/);
   if (!m) return false;
   const d = new Date(`${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}`);
   return !isNaN(d) && d.getTime() < Date.now();
+}
+
+// 판단 근거가 없는 소스(일반 홈페이지 크롤링 등)는 기본적으로 "open"으로 둔다.
+function classifyStatus(title) {
+  return (isClosedAnnouncement(title) || isPastDeadline(title)) ? "closed" : "open";
 }
 
 // ── 사랑의열매 온라인 배분신청 (전국 공모사업 목록) ────────────────
@@ -91,7 +96,8 @@ async function scrapeChest() {
     const url = m
       ? `https://proposal.chest.or.kr/popup/mainBusinessDetail.do?dstbBsnsCode=${m[1]}&appnDocNo=${m[3]}`
       : "https://proposal.chest.or.kr/";
-    items.push({ title, url, date: deadline, source: "사랑의열매", source_url: "https://proposal.chest.or.kr/" });
+    // 이 게시판 자체가 마감 전 공모만 노출하는 구조라 항상 "open"으로 분류한다.
+    items.push({ title, url, date: deadline, source: "사랑의열매", source_url: "https://proposal.chest.or.kr/", status: "open" });
   });
   return items;
 }
@@ -107,8 +113,12 @@ async function scrapeBeautifulFund() {
       });
       for (const p of res.data) {
         const title = strip(p.title.rendered);
-        if (!isYouthRelated(title) || isClosedAnnouncement(title) || isPastDeadline(title)) continue;
-        items.push({ title, url: p.link, date: p.date.slice(0, 10), source: "아름다운재단", source_url: "https://change.beautifulfund.org/" });
+        if (!isYouthRelated(title)) continue;
+        items.push({
+          title, url: p.link, date: p.date.slice(0, 10),
+          source: "아름다운재단", source_url: "https://change.beautifulfund.org/",
+          status: classifyStatus(title),
+        });
       }
     } catch (e) { console.log(`  아름다운재단(${kw}) 오류: ${e.message.slice(0, 60)}`); }
   }
@@ -128,7 +138,8 @@ async function scrapeSite(name, url) {
     const href = absUrl(url, rawHref);
     const parent = $(a).closest("li, tr, .item, article");
     const date = strip(parent.find("[class*='date'], time").first().text());
-    items.push({ title, url: href, date, source: name, source_url: url });
+    // 일반 홈페이지 크롤링은 마감 여부를 판단할 근거(별도 마감일 필드)가 없어 기본 "open"으로 둔다.
+    items.push({ title, url: href, date, source: name, source_url: url, status: classifyStatus(title) });
   });
   return [...new Map(items.map(i => [i.title, i])).values()].slice(0, 10);
 }
@@ -191,8 +202,15 @@ async function main() {
     if (key && !seenKeys.has(key)) { seenKeys.add(key); deduped.push(item); }
   }
 
-  fs.writeFileSync(OUT_PATH, JSON.stringify({ updated_at: isoNow(), total: deduped.length, items: deduped }, null, 2), "utf-8");
-  console.log(`\n저장 완료 → ${OUT_PATH} (총 ${deduped.length}건)`);
+  const open = deduped.filter(it => it.status !== "closed");
+  const closed = deduped.filter(it => it.status === "closed");
+
+  fs.writeFileSync(OUT_PATH, JSON.stringify({
+    updated_at: isoNow(),
+    total: deduped.length,
+    open, closed,
+  }, null, 2), "utf-8");
+  console.log(`\n저장 완료 → ${OUT_PATH} (모집 중 ${open.length}건 / 마감 ${closed.length}건)`);
 }
 
 main().catch(e => { console.error("오류:", e.message); process.exit(1); });
