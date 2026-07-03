@@ -23,6 +23,7 @@ async function searchNaver(keyword, count = 10) {
     });
     return (res.data.items || []).map(it => ({
       title: strip(it.title.replace(/<[^>]+>/g, "")),
+      description: strip((it.description || "").replace(/<[^>]+>/g, "")),
       url: it.originallink || it.link,
       date: it.pubDate || "",
       portal: "네이버",
@@ -41,6 +42,7 @@ async function searchDaum(keyword, count = 10) {
     });
     return (res.data.documents || []).map(it => ({
       title: strip((it.title || "").replace(/<[^>]+>/g, "")),
+      description: strip((it.contents || "").replace(/<[^>]+>/g, "")),
       url: it.url,
       date: it.datetime || "",
       portal: "다음",
@@ -59,6 +61,7 @@ async function searchGoogle(keyword, count = 10) {
     });
     return (res.data.items || []).map(it => ({
       title: strip(it.title || ""),
+      description: strip(it.snippet || ""),
       url: it.link,
       date: "",
       portal: "구글",

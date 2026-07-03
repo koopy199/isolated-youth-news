@@ -21,6 +21,13 @@ function dateTs(str) {
   return isNaN(d) ? 0 : d.getTime();
 }
 
+// 네이버 등 포털 뉴스검색은 단체명 일부 단어만 겹쳐도 매칭하는 경우가 많다
+// (예: "사단법인 오늘은"의 "오늘은"이 일상 어휘라 무관 기사가 대거 걸림).
+// 제목이나 요약에 단체명 전체 문구가 실제로 들어있는 것만 통과시킨다.
+function mentionsOrg(it, name) {
+  return `${it.title} ${it.description || ""}`.includes(name);
+}
+
 async function collectForOrg(name) {
   const [naver, daum, google] = await Promise.all([
     searchNaver(name, 10),
@@ -30,7 +37,7 @@ async function collectForOrg(name) {
 
   const seen = new Set();
   const deduped = [];
-  for (const it of [...naver, ...daum, ...google]) {
+  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, name))) {
     const key = (it.url || "").trim() || it.title.trim();
     if (!key || seen.has(key)) continue;
     seen.add(key);
