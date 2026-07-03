@@ -24,8 +24,10 @@ async function searchNaver(keyword, count = 10) {
   const cs = process.env.NAVER_CLIENT_SECRET || "";
   if (!cid || !cs) { console.log(`  (네이버) NAVER_CLIENT_ID/SECRET 미설정 — 건너뜀`); return []; }
   try {
+    // sort:date는 최신순이라 "오늘은"처럼 흔한 단어가 섞인 검색어는 최근의 무관한 기사가
+    // 먼저 채워져 실제 관련 기사가 상위 10건 밖으로 밀려남. 정확도순(sim)이 관련성 우선이라 더 적합.
     const res = await axios.get("https://openapi.naver.com/v1/search/news.json", {
-      params: { query: keyword, display: count, sort: "date" },
+      params: { query: keyword, display: count, sort: "sim" },
       headers: { ...HEADERS, "X-Naver-Client-Id": cid, "X-Naver-Client-Secret": cs },
       timeout: 15000,
     });
