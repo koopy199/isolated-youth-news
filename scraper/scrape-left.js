@@ -21,14 +21,21 @@ function dateTs(str) {
   return isNaN(d) ? 0 : d.getTime();
 }
 
+// 언론 기사는 "사단법인"/"(주)" 같은 법인격 접두사 없이 약칭만 쓰는 경우가 많아,
+// 검색과 매칭 모두 접두사를 뗀 이름으로 수행한다 (화면 표시용 정식 명칭은 그대로 둠).
+function bareName(name) {
+  return name.replace(/^\s*(사단법인|재단법인|\(주\)|㈜)\s*/, "").replace(/\s*주식회사\s*$/, "").trim();
+}
+
 // 네이버 등 포털 뉴스검색은 단체명 일부 단어만 겹쳐도 매칭하는 경우가 많다
-// (예: "사단법인 오늘은"의 "오늘은"이 일상 어휘라 무관 기사가 대거 걸림).
+// (예: "오늘은"이 일상 어휘라 무관 기사가 대거 걸림).
 // 제목이나 요약에 단체명 전체 문구가 실제로 들어있는 것만 통과시킨다.
 function mentionsOrg(it, name) {
   return `${it.title} ${it.description || ""}`.includes(name);
 }
 
-async function collectForOrg(name) {
+async function collectForOrg(fullName) {
+  const name = bareName(fullName);
   const [naver, daum, google] = await Promise.all([
     searchNaver(name, 10),
     searchDaum(name, 10),
