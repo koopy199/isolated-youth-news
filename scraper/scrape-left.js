@@ -34,16 +34,19 @@ function mentionsOrg(it, name) {
   return `${it.title} ${it.description || ""}`.includes(name);
 }
 
-async function runSearch(query, matchName) {
+// 네이버/다음은 최대치(100/50)까지 넓게 가져온 뒤 mentionsOrg로 걸러서,
+// "오늘은"처럼 흔한 단어가 섞인 이름도 상위 10건 안에 못 들면 놓치던 문제를 줄인다.
+async function collectForOrg(fullName) {
+  const name = bareName(fullName);
   const [naver, daum, google] = await Promise.all([
-    searchNaver(query, 10),
-    searchDaum(query, 10),
-    searchGoogle(query, 10),
+    searchNaver(name, 100),
+    searchDaum(name, 50),
+    searchGoogle(name, 10),
   ]);
 
   const seen = new Set();
   const deduped = [];
-  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, matchName))) {
+  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, name))) {
     const key = (it.url || "").trim() || it.title.trim();
     if (!key || seen.has(key)) continue;
     seen.add(key);
@@ -52,15 +55,6 @@ async function runSearch(query, matchName) {
 
   deduped.sort((a, b) => dateTs(b.date) - dateTs(a.date));
   return deduped.slice(0, PER_ORG_LIMIT);
-}
-
-async function collectForOrg(fullName) {
-  const name = bareName(fullName);
-  const results = await runSearch(name, name);
-  if (results.length) return results;
-  // "오늘은"처럼 흔한 단어가 섞인 이름은 검색 자체가 0건일 수 있어,
-  // 도메인 키워드를 덧붙여 한 번 더 좁혀 검색한다 (매칭 기준은 그대로 단체명 원문).
-  return runSearch(`${name} 고립청년`, name);
 }
 
 async function main() {
