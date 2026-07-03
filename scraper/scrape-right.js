@@ -6,6 +6,7 @@
  * - 아름다운재단 배분신청 사이트 (WordPress 검색 API)
  * - 재단 후보 홈페이지: discover-foundations.js가 캐싱해둔 목록
  * - 관련 단체 홈페이지: 좌측 7개 단체 목록 재사용
+ * - 청년지원기관 목록: sources-foundations.js에 종사자가 직접 등록한 기관 홈페이지
  * 매일 새로 수집한 결과로 교체한다 (좌측과 동일하게 누적하지 않음 —
  * "지금 모집 중인" 정보라 지난 결과를 계속 쌓아둘 이유가 없음).
  */
@@ -49,16 +50,18 @@ function hasGrant(title) {
   return /공모사업|공모전|지원사업|지원금|보조금|사업\s?공고|모집\s?공고/.test(title);
 }
 
-// 사랑의열매·아름다운재단은 아동·노인·장애인 등 다양한 대상을 함께 다루므로,
-// "고립"/"은둔"/"청년" 중 하나라도 언급된 것만 통과시켜 좁힌다.
+// 사랑의열매·아름다운재단·사회연대은행 등은 아동·노인·장애인·소상공인 등
+// 다양한 대상을 함께 다루므로, "고립"/"은둔"/"청년"/"청소년" 중 하나라도
+// 언급된 것만 통과시켜 좁힌다.
 function isYouthRelated(title) {
-  return /고립|은둔|청년/.test(title);
+  return /고립|은둔|청년|청소년/.test(title);
 }
 
 // 아름다운재단 공지사항엔 "모집 공고"뿐 아니라 이미 마감된 "결과발표"류 게시물도
-// 섞여 있다. 삭제하지 않고 "closed"로 분류해 화면 하단에 따로 보여준다.
+// 섞여 있다. 사회연대은행처럼 "[마감]"/"모집마감"이라고 스스로 표시해주는 곳도 있다.
+// 삭제하지 않고 "closed"로 분류해 화면 하단에 따로 보여준다.
 function isClosedAnnouncement(title) {
-  return /결과\s?발표|선정자\s?발표|선정\s?결과|서류심사|최종선정/.test(title);
+  return /결과\s?발표|선정자\s?발표|선정\s?결과|서류심사|심사\s?결과|최종선정|모집\s?마감|\[\s?마감\s?\]/.test(title);
 }
 
 // "(2026.05.22. 접수마감)"처럼 제목에 마감일이 박혀 있는 경우, 그 날짜가
@@ -132,7 +135,7 @@ async function scrapeSite(name, url) {
   const items = [];
   $("a").each((_, a) => {
     const title = strip($(a).text());
-    if (title.length < 8 || title.length > 80 || !hasGrant(title)) return;
+    if (title.length < 8 || title.length > 80 || !hasGrant(title) || !isYouthRelated(title)) return;
     const rawHref = $(a).attr("href") || "";
     if (!rawHref || rawHref.startsWith("javascript:") || rawHref.startsWith("#")) return;
     const href = absUrl(url, rawHref);
@@ -152,6 +155,11 @@ function loadFoundations() {
 
 function loadLeftSources() {
   try { return require("./sources-left").filter(s => s.url); }
+  catch { return []; }
+}
+
+function loadManualFoundations() {
+  try { return require("./sources-foundations"); }
   catch { return []; }
 }
 
@@ -188,6 +196,16 @@ async function main() {
     process.stdout.write(`  ${s.name}... `);
     try {
       const items = await scrapeSite(s.name, s.url);
+      allItems.push(...items);
+      console.log(`${items.length}건`);
+    } catch (e) { console.log(`오류: ${e.message.slice(0, 60)}`); }
+  }
+
+  console.log("\n[청년지원기관 목록 (수동 등록)]");
+  for (const f of loadManualFoundations()) {
+    process.stdout.write(`  ${f.name}... `);
+    try {
+      const items = await scrapeSite(f.name, f.url);
       allItems.push(...items);
       console.log(`${items.length}건`);
     } catch (e) { console.log(`오류: ${e.message.slice(0, 60)}`); }
