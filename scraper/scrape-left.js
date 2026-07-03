@@ -34,17 +34,16 @@ function mentionsOrg(it, name) {
   return `${it.title} ${it.description || ""}`.includes(name);
 }
 
-async function collectForOrg(fullName) {
-  const name = bareName(fullName);
+async function runSearch(query, matchName) {
   const [naver, daum, google] = await Promise.all([
-    searchNaver(name, 10),
-    searchDaum(name, 10),
-    searchGoogle(name, 10),
+    searchNaver(query, 10),
+    searchDaum(query, 10),
+    searchGoogle(query, 10),
   ]);
 
   const seen = new Set();
   const deduped = [];
-  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, name))) {
+  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, matchName))) {
     const key = (it.url || "").trim() || it.title.trim();
     if (!key || seen.has(key)) continue;
     seen.add(key);
@@ -53,6 +52,15 @@ async function collectForOrg(fullName) {
 
   deduped.sort((a, b) => dateTs(b.date) - dateTs(a.date));
   return deduped.slice(0, PER_ORG_LIMIT);
+}
+
+async function collectForOrg(fullName) {
+  const name = bareName(fullName);
+  const results = await runSearch(name, name);
+  if (results.length) return results;
+  // "오늘은"처럼 흔한 단어가 섞인 이름은 검색 자체가 0건일 수 있어,
+  // 도메인 키워드를 덧붙여 한 번 더 좁혀 검색한다 (매칭 기준은 그대로 단체명 원문).
+  return runSearch(`${name} 고립청년`, name);
 }
 
 async function main() {
