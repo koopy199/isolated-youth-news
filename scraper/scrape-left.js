@@ -39,19 +39,18 @@ function mentionsDomain(it) {
   return `${it.title} ${it.description || ""}`.includes("청년");
 }
 
-// 네이버/다음은 최대치(100/50)까지 넓게 가져온 뒤 mentionsOrg로 걸러서,
+// 네이버/다음은 최대치(100/50)까지 넓게 가져온 뒤 걸러서,
 // "오늘은"처럼 흔한 단어가 섞인 이름도 상위 10건 안에 못 들면 놓치던 문제를 줄인다.
-async function collectForOrg(fullName) {
-  const name = bareName(fullName);
+async function runSearch(query, matchName) {
   const [naver, daum, google] = await Promise.all([
-    searchNaver(name, 100),
-    searchDaum(name, 50),
-    searchGoogle(name, 10),
+    searchNaver(query, 100),
+    searchDaum(query, 50),
+    searchGoogle(query, 10),
   ]);
 
   const seen = new Set();
   const deduped = [];
-  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, name) && mentionsDomain(it))) {
+  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, matchName) && mentionsDomain(it))) {
     const key = (it.url || "").trim() || it.title.trim();
     if (!key || seen.has(key)) continue;
     seen.add(key);
@@ -60,6 +59,17 @@ async function collectForOrg(fullName) {
 
   deduped.sort((a, b) => dateTs(b.date) - dateTs(a.date));
   return deduped.slice(0, PER_ORG_LIMIT);
+}
+
+async function collectForOrg(fullName) {
+  const name = bareName(fullName);
+  const results = await runSearch(name, name);
+  if (results.length) return results;
+  // 약칭으로 0건이면, "사단법인 오늘은"처럼 정식 명칭 전체 문구로 마지막으로 한 번 더 시도.
+  // 정식 명칭은 약칭보다 훨씬 드물게 등장해서 우연한 어휘 충돌 없이 정확히 그 단체를 다룬
+  // 기사만 잡힐 가능성이 높다.
+  if (name === fullName) return results;
+  return runSearch(fullName, fullName);
 }
 
 async function main() {
