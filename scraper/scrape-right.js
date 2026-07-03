@@ -52,6 +52,12 @@ function hasGrant(title) {
   return /공모사업|공모전|지원사업|지원금|보조금|사업\s?공고|모집\s?공고/.test(title);
 }
 
+// 포털 뉴스검색이 "청년"/"지원" 등 낱말만 겹쳐도 무관한 지역뉴스를 끌어오는 경우가 많아,
+// 제목에 "고립" 또는 "은둔"이 포함된 것만 최소한으로 통과시킨다.
+function isOnTopic(title) {
+  return /고립|은둔/.test(title);
+}
+
 // ── 포털 검색 (네이버/다음/구글) ────────────────────────────────
 async function scrapePortals() {
   const items = [];
@@ -61,7 +67,7 @@ async function scrapePortals() {
       searchDaum(kw, 10),
       searchGoogle(kw, 10),
     ]);
-    for (const it of [...naver, ...daum, ...google]) {
+    for (const it of [...naver, ...daum, ...google].filter(it => isOnTopic(it.title))) {
       items.push({
         title: it.title, url: it.url, date: it.date,
         source: it.portal, source_url: "",
@@ -110,6 +116,8 @@ async function main() {
     try { existingItems = JSON.parse(fs.readFileSync(OUT_PATH, "utf-8")).items || []; }
     catch { console.log("기존 데이터 로드 실패, 새로 시작"); }
   }
+  // 필터 기준이 바뀌어도 예전에 쌓인 데이터가 계속 남지 않도록, 누적된 항목도 매번 현재 기준으로 재검증한다.
+  existingItems = existingItems.filter(it => it.keyword ? isOnTopic(it.title) : hasGrant(it.title));
 
   const newItems = [];
 
