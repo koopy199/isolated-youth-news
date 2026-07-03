@@ -27,11 +27,16 @@ function bareName(name) {
   return name.replace(/^\s*(사단법인|재단법인|\(주\)|㈜)\s*/, "").replace(/\s*주식회사\s*$/, "").trim();
 }
 
-// 네이버 등 포털 뉴스검색은 단체명 일부 단어만 겹쳐도 매칭하는 경우가 많다
-// (예: "오늘은"이 일상 어휘라 무관 기사가 대거 걸림).
 // 제목이나 요약에 단체명 전체 문구가 실제로 들어있는 것만 통과시킨다.
 function mentionsOrg(it, name) {
   return `${it.title} ${it.description || ""}`.includes(name);
+}
+
+// "오늘은"처럼 단체명 자체가 일상 어휘인 경우, 문구가 우연히 겹치는 무관한 기사
+// (예: 주식시장 "오늘은 매수")까지 통과해버린다. 이 단체들은 전부 청년 지원 단체이므로
+// "청년"이 함께 언급된 것만 통과시켜 우연한 어휘 충돌을 걸러낸다.
+function mentionsDomain(it) {
+  return `${it.title} ${it.description || ""}`.includes("청년");
 }
 
 // 네이버/다음은 최대치(100/50)까지 넓게 가져온 뒤 mentionsOrg로 걸러서,
@@ -46,7 +51,7 @@ async function collectForOrg(fullName) {
 
   const seen = new Set();
   const deduped = [];
-  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, name))) {
+  for (const it of [...naver, ...daum, ...google].filter(it => mentionsOrg(it, name) && mentionsDomain(it))) {
     const key = (it.url || "").trim() || it.title.trim();
     if (!key || seen.has(key)) continue;
     seen.add(key);
