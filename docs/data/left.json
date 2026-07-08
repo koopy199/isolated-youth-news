@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-07T12:26:32.935+09:00",
+  "updated_at": "2026-07-08T11:43:39.442+09:00",
   "stats": {
-    "사단법인 오늘은": 5,
+    "사단법인 오늘은": 4,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,19 +9,12 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 35,
+  "total": 34,
   "items": [
     {
       "title": "은둔 청년에게 AI는 산소 호흡기였다",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8585672&ref=A",
       "date": "Sun, 14 Jun 2026 06:01:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "방문 닫은 고립 청년들, 사람 대신 AI에 마음 열었다",
-      "url": "http://www.newstomato.com/ReadNews.aspx?no=1303516&inflow=N",
-      "date": "Wed, 10 Jun 2026 08:54:00 +0900",
       "source": "사단법인 오늘은",
       "portal": "네이버"
     },
@@ -47,37 +40,37 @@
       "portal": "네이버"
     },
     {
-      "title": "청년 아이디어 청소년 국제봉사... 성남시, 미래 주인공 이렇게 키운다",
-      "url": "https://www.g-enews.com/view.php?ud=2026070710455545598fbfc802b3_1",
-      "date": "Tue, 07 Jul 2026 11:06:00 +0900",
+      "title": "성남시청소년청년재단 중원유스센터, 야외물놀이장 24일 개장",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1389306",
+      "date": "Wed, 08 Jul 2026 10:18:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단  깨진 도자기에서 환경의 가치 배워",
-      "url": "https://www.ajunews.com/view/20260706202910419",
-      "date": "Mon, 06 Jul 2026 20:42:00 +0900",
+      "title": "성남시청소년청년재단 정자유스센터, 국제봉사단체 ‘어센트’와 협력...",
+      "url": "https://www.asiatime.co.kr/article/20260707500392",
+      "date": "Tue, 07 Jul 2026 16:56:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "시흥시청소년청년재단, 영국 킹스턴서 국제교류 성료",
-      "url": "https://www.joongangenews.com/news/articleView.html?idxno=530531",
-      "date": "Sun, 05 Jul 2026 10:02:00 +0900",
+      "title": "성남시청소년청년재단, 정자유스센터·어센트 업무협약",
+      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1272379",
+      "date": "Tue, 07 Jul 2026 16:44:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "시흥시청소년청년재단, 영국 킹스턴서 청소년 국제교류 마쳐",
-      "url": "https://www.newsis.com/view/NISX20260705_0003696042",
-      "date": "Sun, 05 Jul 2026 07:55:00 +0900",
+      "title": "'서귀포청년 로컬액션' 참여자 모집",
+      "url": "https://www.jejumaeil.net/news/articleView.html?idxno=402551",
+      "date": "Tue, 07 Jul 2026 16:24:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "NH농협은행, 지역 정착 청년 위한 신용대출 2종 출시",
-      "url": "https://www.ajunews.com/view/20260702154949872",
-      "date": "Thu, 02 Jul 2026 15:52:00 +0900",
+      "title": "청년재단, ‘2026 청년연구 아이디어 공모전’ 수상작 발표",
+      "url": "https://swtvnews.com/news/newsview.php?ncode=1065587791311844",
+      "date": "Tue, 07 Jul 2026 15:38:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -145,9 +138,9 @@
       "portal": "네이버"
     },
     {
-      "title": "청년재단, 고립·은둔청년 대상 팝업 '낯가리는 카페' 마쳐...3일간 700명...",
-      "url": "https://www.hinews.co.kr/view.php?ud=202606291458136355dacadeb388_48",
-      "date": "Mon, 29 Jun 2026 15:02:00 +0900",
+      "title": "청년재단 '낯가리는 카페' 성료…고립·은둔청년 사회 참여 기회 제공",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=300338",
+      "date": "Mon, 29 Jun 2026 14:53:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
