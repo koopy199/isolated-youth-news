@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-08T11:43:39.442+09:00",
+  "updated_at": "2026-07-09T12:20:14.598+09:00",
   "stats": {
-    "사단법인 오늘은": 4,
+    "사단법인 오늘은": 5,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 34,
+  "total": 35,
   "items": [
     {
       "title": "은둔 청년에게 AI는 산소 호흡기였다",
@@ -40,6 +40,13 @@
       "portal": "네이버"
     },
     {
+      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
+      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
+      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
       "title": "성남시청소년청년재단 중원유스센터, 야외물놀이장 24일 개장",
       "url": "https://www.m-i.kr/news/articleView.html?idxno=1389306",
       "date": "Wed, 08 Jul 2026 10:18:00 +0900",
@@ -54,23 +61,23 @@
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 정자유스센터·어센트 업무협약",
-      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1272379",
-      "date": "Tue, 07 Jul 2026 16:44:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "'서귀포청년 로컬액션' 참여자 모집",
-      "url": "https://www.jejumaeil.net/news/articleView.html?idxno=402551",
-      "date": "Tue, 07 Jul 2026 16:24:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
       "title": "청년재단, ‘2026 청년연구 아이디어 공모전’ 수상작 발표",
       "url": "https://swtvnews.com/news/newsview.php?ncode=1065587791311844",
       "date": "Tue, 07 Jul 2026 15:38:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "청년재단, '2026 청년연구 아이디어 공모전' 수상작 발표...11명 선정",
+      "url": "https://www.hinews.co.kr/view.php?ud=202607071511271334dacadeb388_48",
+      "date": "Tue, 07 Jul 2026 15:14:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "청년재단, ‘2026 청년연구 아이디어 공모전’ 마무리",
+      "url": "https://www.joongang.co.kr/article/25443097",
+      "date": "Tue, 07 Jul 2026 15:13:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
