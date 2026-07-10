@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-07-09T12:20:14.598+09:00",
+  "updated_at": "2026-07-10T12:21:56.585+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 5,
+    "청년재단": 3,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 35,
+  "total": 33,
   "items": [
     {
       "title": "은둔 청년에게 AI는 산소 호흡기였다",
@@ -40,44 +40,30 @@
       "portal": "네이버"
     },
     {
-      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
-      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
-      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
+      "title": "문화예술 사단법인 오늘은, '청년zip중' 예술가 22명 지원",
+      "url": "http://www.handmk.com/news/articleView.html?idxno=20093",
+      "date": "Wed, 07 Feb 2024 10:16:00 +0900",
       "source": "사단법인 오늘은",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단 중원유스센터, 야외물놀이장 24일 개장",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1389306",
-      "date": "Wed, 08 Jul 2026 10:18:00 +0900",
+      "title": "성남시, 청년 기술창업 프로그램 참가자 모집…실리콘밸리 연수",
+      "url": "https://www.newsis.com/view/NISX20260710_0003703889",
+      "date": "Fri, 10 Jul 2026 10:01:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단 정자유스센터, 국제봉사단체 ‘어센트’와 협력...",
-      "url": "https://www.asiatime.co.kr/article/20260707500392",
-      "date": "Tue, 07 Jul 2026 16:56:00 +0900",
+      "title": "성남시, '청년창업 아이디에이션 4.0' 참가자 모집",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1390176",
+      "date": "Fri, 10 Jul 2026 09:38:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "청년재단, ‘2026 청년연구 아이디어 공모전’ 수상작 발표",
-      "url": "https://swtvnews.com/news/newsview.php?ncode=1065587791311844",
-      "date": "Tue, 07 Jul 2026 15:38:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단, '2026 청년연구 아이디어 공모전' 수상작 발표...11명 선정",
-      "url": "https://www.hinews.co.kr/view.php?ud=202607071511271334dacadeb388_48",
-      "date": "Tue, 07 Jul 2026 15:14:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단, ‘2026 청년연구 아이디어 공모전’ 마무리",
-      "url": "https://www.joongang.co.kr/article/25443097",
-      "date": "Tue, 07 Jul 2026 15:13:00 +0900",
+      "title": "성남시, 혁신기술 창업 이끌 청년 15명 선발.. ‘실리콘밸리 연계’",
+      "url": "https://sports.donga.com/region/article/all/20260710/134271752/1",
+      "date": "Fri, 10 Jul 2026 09:22:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
