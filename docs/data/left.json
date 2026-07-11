@@ -1,27 +1,20 @@
 {
-  "updated_at": "2026-07-10T12:21:56.585+09:00",
+  "updated_at": "2026-07-11T11:40:37.416+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 3,
+    "청년재단": 2,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 33,
+  "total": 32,
   "items": [
     {
       "title": "은둔 청년에게 AI는 산소 호흡기였다",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8585672&ref=A",
       "date": "Sun, 14 Jun 2026 06:01:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "“사람 대신 AI에 마음 열었다”… 2026 청년세대 고립보고서 발표",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8581637&ref=A",
-      "date": "Tue, 09 Jun 2026 14:48:00 +0900",
       "source": "사단법인 오늘은",
       "portal": "네이버"
     },
@@ -47,16 +40,16 @@
       "portal": "네이버"
     },
     {
-      "title": "성남시, 청년 기술창업 프로그램 참가자 모집…실리콘밸리 연수",
-      "url": "https://www.newsis.com/view/NISX20260710_0003703889",
-      "date": "Fri, 10 Jul 2026 10:01:00 +0900",
-      "source": "청년재단",
+      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
+      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
+      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
+      "source": "사단법인 오늘은",
       "portal": "네이버"
     },
     {
-      "title": "성남시, '청년창업 아이디에이션 4.0' 참가자 모집",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1390176",
-      "date": "Fri, 10 Jul 2026 09:38:00 +0900",
+      "title": "성남시, 청년 기술창업 프로그램 참가자 모집…실리콘밸리 연수",
+      "url": "https://www.newsis.com/view/NISX20260710_0003703889",
+      "date": "Fri, 10 Jul 2026 10:01:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -208,6 +201,20 @@
       "portal": "네이버"
     },
     {
+      "title": "이소희 의원  고립 청년에 질책 아닌 연결 필요…사회가 먼저 손 내밀어...",
+      "url": "https://www.ntoday.co.kr/news/articleView.html?idxno=128135",
+      "date": "Fri, 10 Jul 2026 23:26:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
+      "title": "청년의 문제는 곧 미래를 묻는 문제 ...이소희 의원, 제도 지원 약속",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=222766",
+      "date": "Fri, 10 Jul 2026 15:58:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "우체국 집배원, 서울시 고립·은둔 청년 찾아낸다",
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01462886645486312",
       "date": "Sun, 28 Jun 2026 11:17:00 +0900",
@@ -225,20 +232,6 @@
       "title": "우체국 집배원이 서울 고립·은둔 청년 찾아간다",
       "url": "https://zdnet.co.kr/view/?no=20260628102708",
       "date": "Sun, 28 Jun 2026 11:16:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "우체국 집배원, 고립·은둔 청년 찾아 복지 지원 연결",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=678912",
-      "date": "Sun, 28 Jun 2026 11:16:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "집배원, 서울 지역 고립·은둔 청년 찾아나선다…서울시와 MOU",
-      "url": "https://www.mt.co.kr/tech/2026/06/28/2026062810034422550",
-      "date": "Sun, 28 Jun 2026 11:15:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
