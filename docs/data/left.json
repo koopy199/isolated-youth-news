@@ -1,23 +1,16 @@
 {
-  "updated_at": "2026-07-14T11:31:07.711+09:00",
+  "updated_at": "2026-07-15T11:29:17.750+09:00",
   "stats": {
-    "사단법인 오늘은": 5,
-    "청년재단": 3,
+    "사단법인 오늘은": 4,
+    "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 33,
+  "total": 34,
   "items": [
-    {
-      "title": "은둔 청년에게 AI는 산소 호흡기였다",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8585672&ref=A",
-      "date": "Sun, 14 Jun 2026 06:01:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
       "url": "https://www.lifein.news/news/articleView.html?idxno=17624",
@@ -47,23 +40,37 @@
       "portal": "네이버"
     },
     {
-      "title": "롯데홈쇼핑, 반찬 나눔 시설 '희망수라간' 리모델링…한국콜마, 자립준...",
-      "url": "https://www.sisaon.co.kr/news/articleView.html?idxno=202671",
-      "date": "Tue, 14 Jul 2026 10:42:00 +0900",
+      "title": "삼표그룹, 청년 진로 멘토링 '청춘잡담' 성료…임직원 멘토로 나서",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=713541",
+      "date": "Wed, 15 Jul 2026 11:00:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 미래교육주간 '성남 하이버스' 개막",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1391216",
-      "date": "Tue, 14 Jul 2026 09:46:00 +0900",
+      "title": "삼표그룹, 청년 대상 진로 멘토링 '청춘잡담' 진행",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1386169",
+      "date": "Wed, 15 Jul 2026 10:58:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단  2026 성남시 대학진학박람회 운영",
-      "url": "https://www.ajunews.com/view/20260713104755318",
-      "date": "Mon, 13 Jul 2026 11:02:00 +0900",
+      "title": "삼표그룹, '청춘잡담' 통해 청년들 진로 멘토링 지원",
+      "url": "http://www.metroseoul.co.kr/article/20260715500140",
+      "date": "Wed, 15 Jul 2026 10:56:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "삼표그룹, 청년 진로 멘토링 '청춘잡담' 성료…현직자가 전한 생생한 커...",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=871962",
+      "date": "Wed, 15 Jul 2026 10:30:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "삼표그룹 청년 진로멘토링 '청춘잡담(Job Talk)', 200명 청년 참여해 성...",
+      "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=269808",
+      "date": "Wed, 15 Jul 2026 10:22:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
