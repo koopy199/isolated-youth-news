@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T12:17:27.073+09:00",
+  "updated_at": "2026-07-21T11:42:45.812+09:00",
   "stats": {
     "사단법인 오늘은": 4,
     "청년재단": 5,
@@ -40,6 +40,27 @@
       "portal": "네이버"
     },
     {
+      "title": "성남시청소년청년재단, 고교생 1500명 참여 드림콘서트 성료",
+      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1275903",
+      "date": "Mon, 20 Jul 2026 17:22:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "성남시청소년청년재단, 성남 미래교육주간 「드림콘서트」 성황리 개최",
+      "url": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160272095314363",
+      "date": "Mon, 20 Jul 2026 15:52:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "성남시청소년청년재단, '성남 하이버스 드림콘서트' 청소년 1,500명과 미...",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3640302",
+      "date": "Mon, 20 Jul 2026 13:04:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
       "title": "성남시청소년청년재단  성남 미래교육주간 드림콘서트 성공적 마무리",
       "url": "https://www.ajunews.com/view/20260720101308300",
       "date": "Mon, 20 Jul 2026 10:20:00 +0900",
@@ -50,27 +71,6 @@
       "title": "성남시청소년청년재단, 미래교육주간 '드림콘서트' 개최",
       "url": "https://www.m-i.kr/news/articleView.html?idxno=1392734",
       "date": "Mon, 20 Jul 2026 08:34:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "지자체 청소년청년재단 확산, 정책 통합이 아쉬운 까닭",
-      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003252469&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-      "date": "Sun, 19 Jul 2026 17:31:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "삼표그룹, 청년 대상 진로 멘토링 프로그램 진행",
-      "url": "https://www.donga.com/news/Economy/article/all/20260715/134304708/1",
-      "date": "Wed, 15 Jul 2026 15:47:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "삼표그룹, 청년 대상 진로 멘토링 '청춘잡담' 진행",
-      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1386169",
-      "date": "Wed, 15 Jul 2026 10:58:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -110,13 +110,6 @@
       "portal": "네이버"
     },
     {
-      "title": "높아진 첫 경력의 장벽, 구직 포기로 이어진다 [신입 구함, 경력 필수⑦...",
-      "url": "https://www.kukinews.com/article/view/kuk202607050043",
-      "date": "Mon, 06 Jul 2026 06:02:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
       "title": "버추얼 캐릭터로 '낯가린' 청년들, 사회 복귀의 첫 문을 열어젖히다",
       "url": "https://www.hankookilbo.com/news/article/A2026062914540000394?did=NA",
       "date": "Sat, 04 Jul 2026 11:00:00 +0900",
@@ -138,9 +131,16 @@
       "portal": "네이버"
     },
     {
-      "title": "청년재단 '낯가리는 카페' 성료…고립·은둔청년 사회 참여 기회 제공",
-      "url": "https://www.ppss.kr/news/articleView.html?idxno=300338",
-      "date": "Mon, 29 Jun 2026 14:53:00 +0900",
+      "title": "청년재단, '낯가리는 카페' 운영…고립·은둔청년 사회 참여 지원",
+      "url": "https://isplus.com/article/view/isp202606290103",
+      "date": "Mon, 29 Jun 2026 13:58:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "청년재단, 고립·은둔청년 지원 팝업 행사 성료",
+      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1060721",
+      "date": "Mon, 29 Jun 2026 13:30:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
