@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-23T11:45:57.056+09:00",
+  "updated_at": "2026-07-24T11:41:38.299+09:00",
   "stats": {
-    "사단법인 오늘은": 4,
+    "사단법인 오늘은": 2,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 34,
+  "total": 32,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -26,51 +26,37 @@
       "portal": "네이버"
     },
     {
-      "title": "문화예술 사단법인 오늘은, '청년zip중' 예술가 22명 지원",
-      "url": "http://www.handmk.com/news/articleView.html?idxno=20093",
-      "date": "Wed, 07 Feb 2024 10:16:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
-      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
-      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "취업사교육에 등골 휘는 청년들… 연평균 360만원 지출",
-      "url": "https://view.asiae.co.kr/article/2026072309574924639",
-      "date": "Thu, 23 Jul 2026 10:33:00 +0900",
+      "title": "“취업도 사교육 시대” 강원청년 사교육비 부담 가중",
+      "url": "https://www.kwnews.co.kr/article/20260723501379",
+      "date": "Fri, 24 Jul 2026 00:09:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "취업하려면 또 사교육 …청년 취업사교육비 月 30만원",
-      "url": "https://www.etoday.co.kr/news/view/2606477",
-      "date": "Thu, 23 Jul 2026 10:30:00 +0900",
+      "title": "청년 94% 취업 사교육 경험…64%  경제적 어려움",
+      "url": "https://www.nocutnews.co.kr/news/6552532?utm_source=naver&utm_medium=article&utm_campaign=20260723052514",
+      "date": "Thu, 23 Jul 2026 17:26:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 폴란드 브로츠와프시와 청소년 교류 협력",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5043287",
-      "date": "Wed, 22 Jul 2026 12:56:00 +0900",
+      "title": "취업도 사교육 없인 불안…청년 10명 중 9명 사교육 경험",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1171129",
+      "date": "Thu, 23 Jul 2026 17:24:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "민간 청년재단→공공 청년정책진흥원으로…與김동아, 청년기본법 발의",
-      "url": "https://view.asiae.co.kr/article/2026072211285848355",
-      "date": "Wed, 22 Jul 2026 11:28:00 +0900",
+      "title": "청년 94%  취업 사교육 받아 …월 평균 30만원 지출",
+      "url": "https://www.newsis.com/view/NISX20260723_0003720869",
+      "date": "Thu, 23 Jul 2026 16:16:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 브로츠와프시와 청소년 국제교류",
-      "url": "https://www.newsis.com/view/NISX20260722_0003718472",
-      "date": "Wed, 22 Jul 2026 11:21:00 +0900",
+      "title": "청년 10명 중 9명 취업 사교육‥ 64%  경제적 부담",
+      "url": "https://imnews.imbc.com/news/2026/society/article/6839599_36918.html",
+      "date": "Thu, 23 Jul 2026 16:14:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -110,13 +96,6 @@
       "portal": "네이버"
     },
     {
-      "title": "버추얼 캐릭터로 '낯가린' 청년들, 사회 복귀의 첫 문을 열어젖히다",
-      "url": "https://www.hankookilbo.com/news/article/A2026062914540000394?did=NA",
-      "date": "Sat, 04 Jul 2026 11:00:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
       "title": "청년재단, 고립·은둔청년 자립 돕는 버추얼 팝업 ‘낯가리는 카페’ 오...",
       "url": "https://www.kmib.co.kr/article/view.asp?arcid=0030038310&code=61151111&cp=nv",
       "date": "Mon, 29 Jun 2026 19:02:00 +0900",
@@ -145,6 +124,27 @@
       "portal": "네이버"
     },
     {
+      "title": "나와서 해도 되겠는데요? …버추얼 캐릭터로 손님 맞은 은둔 청년들",
+      "url": "https://www.newsis.com/view/NISX20260624_0003681112",
+      "date": "Wed, 24 Jun 2026 10:11:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "박승원, 민주당 최고위원선거 '다크호스' 부상…'염태영·황명선' 길 이...",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=534807",
+      "date": "Thu, 23 Jul 2026 13:32:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
+      "title": "[패트롤] 광명시-부천시-시흥시-안산시-안양시",
+      "url": "https://www.ekn.kr/web/view.php?key=20260723029465298",
+      "date": "Thu, 23 Jul 2026 12:22:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
       "title": "박승원 민주당 최고위원 후보(광명시장), 청년 정책당 비전 제시 눈길",
       "url": "https://www.kgnews.co.kr/news/article.html?no=904758",
       "date": "Wed, 22 Jul 2026 15:32:00 +0900",
@@ -162,20 +162,6 @@
       "title": "광명시 청년 공공 관계 플랫폼 '라임' 출범",
       "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3067142",
       "date": "Sun, 21 Jun 2026 16:32:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "우연한 만남이 모임으로…광명시, 청년 플랫폼 '라임' 출발",
-      "url": "https://www.etnews.com/20260621000091",
-      "date": "Sun, 21 Jun 2026 15:23:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "광명시, 청년 공공 관계 플랫폼 '라임' 공식 출범",
-      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1267029",
-      "date": "Sun, 21 Jun 2026 14:36:00 +0900",
       "source": "광명시 청년동",
       "portal": "네이버"
     },
