@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-24T11:41:38.299+09:00",
+  "updated_at": "2026-07-25T11:40:02.142+09:00",
   "stats": {
     "사단법인 오늘은": 2,
     "청년재단": 5,
@@ -26,6 +26,20 @@
       "portal": "네이버"
     },
     {
+      "title": "청년 10명 중 9명  취업 사교육 받는다 …월평균 30만원 지출",
+      "url": "https://www.ngonews.kr/news/articleView.html?idxno=233782",
+      "date": "Sat, 25 Jul 2026 07:58:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "“돈 없으면 취업도 못 하나”…청년 10명 중 9명 학원으로 내몰렸다",
+      "url": "https://www.sedaily.com/article/20071602?ref=naver",
+      "date": "Sat, 25 Jul 2026 01:11:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
       "title": "“취업도 사교육 시대” 강원청년 사교육비 부담 가중",
       "url": "https://www.kwnews.co.kr/article/20260723501379",
       "date": "Fri, 24 Jul 2026 00:09:00 +0900",
@@ -43,20 +57,6 @@
       "title": "취업도 사교육 없인 불안…청년 10명 중 9명 사교육 경험",
       "url": "https://www.ggilbo.com/news/articleView.html?idxno=1171129",
       "date": "Thu, 23 Jul 2026 17:24:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년 94%  취업 사교육 받아 …월 평균 30만원 지출",
-      "url": "https://www.newsis.com/view/NISX20260723_0003720869",
-      "date": "Thu, 23 Jul 2026 16:16:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년 10명 중 9명 취업 사교육‥ 64%  경제적 부담",
-      "url": "https://imnews.imbc.com/news/2026/society/article/6839599_36918.html",
-      "date": "Thu, 23 Jul 2026 16:14:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -124,9 +124,9 @@
       "portal": "네이버"
     },
     {
-      "title": "나와서 해도 되겠는데요? …버추얼 캐릭터로 손님 맞은 은둔 청년들",
-      "url": "https://www.newsis.com/view/NISX20260624_0003681112",
-      "date": "Wed, 24 Jun 2026 10:11:00 +0900",
+      "title": "KT희망나눔인상에 ‘안무서운회사’ 선정",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1766474258&code=11151100&cp=nv",
+      "date": "Wed, 24 Dec 2025 01:24:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
