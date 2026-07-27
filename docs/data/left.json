@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T11:48:44.916+09:00",
+  "updated_at": "2026-07-27T11:56:48.207+09:00",
   "stats": {
-    "사단법인 오늘은": 2,
+    "사단법인 오늘은": 3,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 32,
+  "total": 33,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -26,37 +26,44 @@
       "portal": "네이버"
     },
     {
-      "title": "청년 10명 중 9명  취업 사교육 받는다 …월평균 30만원 지출",
-      "url": "https://www.ngonews.kr/news/articleView.html?idxno=233782",
-      "date": "Sat, 25 Jul 2026 07:58:00 +0900",
+      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
+      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
+      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "봉화군, 수원시 청년들 상호교류 협력 강화 추진",
+      "url": "https://www.tournews21.com/news/articleView.html?idxno=139452",
+      "date": "Mon, 27 Jul 2026 11:26:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "“돈 없으면 취업도 못 하나”…청년 10명 중 9명 학원으로 내몰렸다",
-      "url": "https://www.sedaily.com/article/20071602?ref=naver",
-      "date": "Sat, 25 Jul 2026 01:11:00 +0900",
+      "title": "시흥 청년작가 웹툰 속으로…'너나다반사: 우리 주변의 친구들' 전시",
+      "url": "https://www.handmk.com/news/articleView.html?idxno=41653",
+      "date": "Mon, 27 Jul 2026 11:18:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "“취업도 사교육 시대” 강원청년 사교육비 부담 가중",
-      "url": "https://www.kwnews.co.kr/article/20260723501379",
-      "date": "Fri, 24 Jul 2026 00:09:00 +0900",
+      "title": "수원시와 경북 봉화군 청년들 한 자리에서 만났다",
+      "url": "http://www.bulkyo21.com/news/articleView.html?idxno=64646",
+      "date": "Mon, 27 Jul 2026 11:16:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "청년 94% 취업 사교육 경험…64%  경제적 어려움",
-      "url": "https://www.nocutnews.co.kr/news/6552532?utm_source=naver&utm_medium=article&utm_campaign=20260723052514",
-      "date": "Thu, 23 Jul 2026 17:26:00 +0900",
+      "title": "수원시와 경북 봉화군 청년들 한 자리에서 만나 우호 다짐",
+      "url": "https://www.m-economynews.com/news/article.html?no=69109",
+      "date": "Mon, 27 Jul 2026 11:10:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "취업도 사교육 없인 불안…청년 10명 중 9명 사교육 경험",
-      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1171129",
-      "date": "Thu, 23 Jul 2026 17:24:00 +0900",
+      "title": "시흥시청소년청년재단, 청년예술인 기획전 '너나다반사' 열려",
+      "url": "https://www.kmaeil.com/news/articleView.html?idxno=646603",
+      "date": "Mon, 27 Jul 2026 11:00:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
