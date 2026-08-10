@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-09T10:44:59.192+09:00",
+  "updated_at": "2026-08-10T10:48:43.396+09:00",
   "stats": {
     "사단법인 오늘은": 5,
     "청년재단": 5,
@@ -11,6 +11,13 @@
   },
   "total": 35,
   "items": [
+    {
+      "title": "서울광역청년센터, 청년 예술인 첫 전시 지원…'청년, 시작의 형태' 8월...",
+      "url": "https://www.lifein.news/news/articleView.html?idxno=20362",
+      "date": "Mon, 10 Aug 2026 09:48:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
     {
       "title": "[내 달콤살벌한 AI 연인①]  나, 좋은 사람이 생겼어  영화 '허'는 예고...",
       "url": "https://www.econovill.com/news/articleView.html?idxno=747170",
@@ -40,44 +47,37 @@
       "portal": "네이버"
     },
     {
-      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
-      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
-      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
-      "source": "사단법인 오늘은",
+      "title": "논산시, 2026년 청년 대토론회 '논산을 바꾸는 시간' 성료",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1400285",
+      "date": "Mon, 10 Aug 2026 09:16:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "청년재단, 성과공유회로 서포터즈 역량 강화",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1174269",
+      "date": "Sun, 09 Aug 2026 16:06:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "'청년이 묻고 시장이 답했다'",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1174135",
+      "date": "Sun, 09 Aug 2026 13:08:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "논산 청년 대토론회'논산을 바꾸는 시간'개최",
+      "url": "http://www.cctimes.kr/news/articleView.html?idxno=920773",
+      "date": "Sun, 09 Aug 2026 12:52:00 +0900",
+      "source": "청년재단",
       "portal": "네이버"
     },
     {
       "title": "청년의 목소리로 논산의 내일을 그리다…논산 청년 대토론회",
       "url": "https://www.newsis.com/view/NISX20260809_0003741554",
       "date": "Sun, 09 Aug 2026 08:36:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "논산시, '2026년 논산 청년 대토론회 논산을 바꾸는 시간' 성황리 마무리",
-      "url": "https://www.newstnt.com/news/articleView.html?idxno=713276",
-      "date": "Sun, 09 Aug 2026 01:08:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "KIAT·청년재단, 일자리 밖 청년 교육·취업 지원 협약",
-      "url": "http://www.lawissue.co.kr/view.php?ud=202608061729521757f4ab64559d_12",
-      "date": "Thu, 06 Aug 2026 17:32:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "한국산업기술진흥원·청년재단, 업무협약 체결… 일자리 밖 청년의 교육...",
-      "url": "https://www.industrynews.co.kr/news/articleView.html?idxno=84141",
-      "date": "Thu, 06 Aug 2026 15:54:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "KIAT·청년재단 맞손…'일자리 밖 청년' 교육·취업 지원 확대",
-      "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4099349",
-      "date": "Thu, 06 Aug 2026 15:42:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -222,6 +222,13 @@
       "portal": "네이버"
     },
     {
+      "title": "서울시, 청년 50만명에 '챗GPT·제미나이' 이용권 쏜다… 56억 투입",
+      "url": "https://www.news1.kr/local/moi/6253808",
+      "date": "Mon, 10 Aug 2026 10:00:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "한성대, 고립·은둔 청년 콘텐츠 프로그램 운영",
       "url": "https://www.naeil.com/news/read/598144?ref=naver",
       "date": "Fri, 07 Aug 2026 19:38:00 +0900",
@@ -246,13 +253,6 @@
       "title": "고립·은둔청년 위한 온라인 플랫폼 개소…비대면 지원 본격화",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3655922",
       "date": "Wed, 05 Aug 2026 09:08:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "'AI 그림책·애니메이션'…서울청년기지개센터 북콘서트 개최",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3650569",
-      "date": "Thu, 30 Jul 2026 08:58:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
