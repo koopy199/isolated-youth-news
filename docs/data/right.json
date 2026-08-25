@@ -1,23 +1,7 @@
 {
-  "updated_at": "2026-08-24T10:18:24.025+09:00",
-  "total": 27,
+  "updated_at": "2026-08-25T10:16:13.736+09:00",
+  "total": 26,
   "open": [
-    {
-      "title": "[충북] 2027년 복권기금 아동청소년 야간보호사업",
-      "url": "https://proposal.chest.or.kr/popup/mainBusinessDetail.do?dstbBsnsCode=20260701100032&appnDocNo=",
-      "date": "2026-08-24",
-      "source": "사랑의열매",
-      "source_url": "https://proposal.chest.or.kr/",
-      "status": "open"
-    },
-    {
-      "title": "[제주]사랑의열매 2027년 복권기금 아동청소년 야간보호사업",
-      "url": "https://proposal.chest.or.kr/popup/mainBusinessDetail.do?dstbBsnsCode=20260801700001&appnDocNo=",
-      "date": "2026-08-24",
-      "source": "사랑의열매",
-      "source_url": "https://proposal.chest.or.kr/",
-      "status": "open"
-    },
     {
       "title": "[대구] 2027년 복권기금 저소득 아동청소년 야간보호사업",
       "url": "https://proposal.chest.or.kr/popup/mainBusinessDetail.do?dstbBsnsCode=20260700400024&appnDocNo=",
@@ -30,6 +14,14 @@
       "title": "[북부]2027년 복권기금 저소득 아동·청소년 야간보호사업",
       "url": "https://proposal.chest.or.kr/popup/mainBusinessDetail.do?dstbBsnsCode=20260800900014&appnDocNo=",
       "date": "2026-08-26",
+      "source": "사랑의열매",
+      "source_url": "https://proposal.chest.or.kr/",
+      "status": "open"
+    },
+    {
+      "title": "[부산]2027년 복권기금 저소득 아동·청소년 야간보호사업",
+      "url": "https://proposal.chest.or.kr/popup/mainBusinessDetail.do?dstbBsnsCode=20260700300028&appnDocNo=",
+      "date": "2026-08-28",
       "source": "사랑의열매",
       "source_url": "https://proposal.chest.or.kr/",
       "status": "open"

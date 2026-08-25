@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-24T10:17:21.610+09:00",
+  "updated_at": "2026-08-25T10:15:16.829+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 5,
+    "청년재단": 2,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 35,
+  "total": 32,
   "items": [
     {
       "title": "[청년뉴스] 서울광역청년센터, 청년 예술인의 '첫 시작'을 응원하다 外",
@@ -33,6 +33,13 @@
       "portal": "네이버"
     },
     {
+      "title": "[위클리오늘] 아모레퍼시픽공감재단, '청년 마음 축제' 참가자 3000명 모...",
+      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=651680",
+      "date": "Thu, 19 Sep 2024 09:16:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
       "url": "https://www.lifein.news/news/articleView.html?idxno=17624",
       "date": "Thu, 01 Aug 2024 10:38:00 +0900",
@@ -40,44 +47,16 @@
       "portal": "네이버"
     },
     {
-      "title": "사단법인 오늘은, 청년 마음 챙김 위한 문화예술 참여 프로그램 '아트퍼...",
-      "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
-      "date": "Wed, 31 Jul 2024 11:02:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "성남시의회 행정교육위원회, 청소년·청년 지원 사업 등 현안 살펴",
-      "url": "https://www.g-enews.com/view.php?ud=2026082120574958638fbfc802b3_1",
-      "date": "Mon, 24 Aug 2026 08:50:00 +0900",
+      "title": "성남시청소년청년재단  성남 청소년 영화축제 막 내려",
+      "url": "https://www.ajunews.com/view/20260824185830523",
+      "date": "Mon, 24 Aug 2026 19:12:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시의회 행정교육위, 청소년·청년 정책과 시민 문화공간 현장 살펴",
-      "url": "https://www.joongdo.co.kr/web/view.php?key=20260823010006708",
-      "date": "Sun, 23 Aug 2026 14:24:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "시흥시청소년청년재단, 제4회 시흥시 청소년 참여기구 정책제안발표회...",
-      "url": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160258962999552",
-      "date": "Sun, 23 Aug 2026 14:22:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "성남시의회 행정교육위, 청소년·청년재단·중앙도서관 현장 점검",
-      "url": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160293285181090",
-      "date": "Fri, 21 Aug 2026 18:24:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "성남시의회 행정교육위, 청소년청년재단·중앙도서관 현장 점검",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1404692",
-      "date": "Fri, 21 Aug 2026 16:32:00 +0900",
+      "title": "성남시청소년청년재단, 영화 제작부터 작가 체험까지…창작으로 진로 가...",
+      "url": "https://www.g-enews.com/view.php?ud=2026082413572071088fbfc802b3_1",
+      "date": "Mon, 24 Aug 2026 14:26:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -146,7 +125,7 @@
     },
     {
       "title": "한성숙 총리, 고립·은둔 경험 청년 간담회",
-      "url": "https://www.newsis.com/view/NISI20260729_0021381533",
+      "url": "https://www.newsis.com/view/NISI20260729_0021381532",
       "date": "Wed, 29 Jul 2026 15:11:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
@@ -222,6 +201,20 @@
       "portal": "네이버"
     },
     {
+      "title": "고립청년 지원 2배로… ‘복지 안전망’ 더 촘촘해졌다",
+      "url": "https://www.donga.com/news/Society/article/all/20260824/134535645/2",
+      "date": "Tue, 25 Aug 2026 04:31:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
+      "title": "서울시 약자동행지수 3년 연속 상승…고립·가족돌봄청년 지원 효과",
+      "url": "https://www.donga.com/news/Society/article/all/20260824/134530264/1",
+      "date": "Mon, 24 Aug 2026 17:07:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "[청년뉴스] 초록우산, 자립준비 청소년·청년 현장 일경험 지원 外",
       "url": "https://www.ibabynews.com/news/articleView.html?idxno=153794",
       "date": "Wed, 19 Aug 2026 18:50:00 +0900",
@@ -239,20 +232,6 @@
       "title": "돈 내고 쓰지 마세요 ...서울시, 19~29세 청년들에게 '이것' 지원 확정",
       "url": "https://www.wikitree.co.kr/articles/1151505",
       "date": "Mon, 10 Aug 2026 15:18:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "서울시 올해 두 번째 2.8조 추경…청년 50만명 AI 이용권·전기차 2만650...",
-      "url": "https://www.thepowernews.co.kr/view.php?ud=2026081013225878de3f0aa1be_7",
-      "date": "Mon, 10 Aug 2026 13:26:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년 50만명에 AI 이용권…서울시, 민생·성장에 8100억 투입",
-      "url": "https://www.sedaily.com/article/20077570?ref=naver",
-      "date": "Mon, 10 Aug 2026 11:22:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
