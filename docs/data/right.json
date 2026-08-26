@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-25T10:16:13.736+09:00",
-  "total": 26,
+  "updated_at": "2026-08-26T10:19:12.335+09:00",
+  "total": 27,
   "open": [
     {
       "title": "[대구] 2027년 복권기금 저소득 아동청소년 야간보호사업",
@@ -88,6 +88,14 @@
       "date": "2026-07-27",
       "source": "사회연대은행 (함께만드는세상)",
       "source_url": "https://www.bss.or.kr",
+      "status": "open"
+    },
+    {
+      "title": "[서울특별시] 2026년 사회연대경제 청년 일경험 시범사업 참여기업 모집 공고 2026.08.25",
+      "url": "http://www.joyfulunion.or.kr/news/open_view?seq=27311",
+      "date": "",
+      "source": "나눔과기쁨",
+      "source_url": "http://www.joyfulunion.or.kr",
       "status": "open"
     }
   ],
