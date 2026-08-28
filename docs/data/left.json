@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T16:51:35.356+09:00",
+  "updated_at": "2026-08-28T18:56:04.987+09:00",
   "stats": {
     "사단법인 오늘은": 5,
     "청년재단": 4,
@@ -15,13 +15,6 @@
       "title": "[청년뉴스] 서울광역청년센터, 청년 예술인의 '첫 시작'을 응원하다 外",
       "url": "https://www.ibabynews.com/news/articleView.html?idxno=153641",
       "date": "Thu, 13 Aug 2026 11:44:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "[내 달콤살벌한 AI 연인①]  나, 좋은 사람이 생겼어  영화 '허'는 예고...",
-      "url": "https://www.econovill.com/news/articleView.html?idxno=747170",
-      "date": "Wed, 05 Aug 2026 10:36:00 +0900",
       "source": "사단법인 오늘은",
       "portal": "네이버"
     },
@@ -47,6 +40,20 @@
       "portal": "네이버"
     },
     {
+      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
+      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
+      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "20대 청년의 직감, 전세계 600만명 홀린 ‘내 인생의 명장면’",
+      "url": "https://www.chosun.com/economy/startup_story/2026/08/28/PTGBJLBZNBFNPHJOIBDCVDMC4I/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "date": "Fri, 28 Aug 2026 04:46:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
       "title": "성남시청소년청년재단  청소년 눈높이 디지털 법률교육 이어가",
       "url": "https://www.ajunews.com/view/20260827160115311",
       "date": "Thu, 27 Aug 2026 16:14:00 +0900",
@@ -57,13 +64,6 @@
       "title": "김어진 하남시의원, ‘하남시 청소년·청년재단 설립을 위한 토론회’ ...",
       "url": "https://www.seoul.co.kr/news/publicnews/local_govern/news_local/2026/08/27/20260827500169?wlog_tag3=naver",
       "date": "Thu, 27 Aug 2026 16:04:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "성남시청소년청년재단, 중학생 대상 '찾아가는 디지털 법률교육' 운영",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1406618",
-      "date": "Thu, 27 Aug 2026 10:38:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -110,9 +110,9 @@
       "portal": "네이버"
     },
     {
-      "title": "韓총리, 고립·은둔청년 지원현장 찾아… 공공·민간 역할 나눠야",
-      "url": "https://www.yna.co.kr/view/AKR20260729175600001?input=1195m",
-      "date": "Wed, 29 Jul 2026 19:27:00 +0900",
+      "title": "강북구 ‘자살·은둔·고독사 0’ 첫발 뗐다",
+      "url": "https://www.naeil.com/news/read/600380?ref=naver",
+      "date": "Fri, 28 Aug 2026 13:06:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
@@ -215,6 +215,13 @@
       "portal": "네이버"
     },
     {
+      "title": "'청년들이 직접 꺼낸 30가지 해법'…권익위, 정책 제안 다듬는다",
+      "url": "https://www.news1.kr/politics/pm-bai-comm/6272354",
+      "date": "Fri, 28 Aug 2026 10:11:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "고립청년 지원 2배로… ‘복지 안전망’ 더 촘촘해졌다",
       "url": "https://www.donga.com/news/Society/article/all/20260824/134535645/2",
       "date": "Tue, 25 Aug 2026 04:31:00 +0900",
@@ -239,13 +246,6 @@
       "title": "서울청년기지개센터, 공예로 연 세상…고립·은둔 청년 19명 기지개 켰다",
       "url": "https://www.donga.com/news/Culture/article/all/20260814/134477888/1",
       "date": "Fri, 14 Aug 2026 11:28:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "돈 내고 쓰지 마세요 ...서울시, 19~29세 청년들에게 '이것' 지원 확정",
-      "url": "https://www.wikitree.co.kr/articles/1151505",
-      "date": "Mon, 10 Aug 2026 15:18:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
