@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-28T18:56:04.987+09:00",
+  "updated_at": "2026-08-29T14:55:34.134+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 4,
+    "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 34,
+  "total": 35,
   "items": [
     {
       "title": "[청년뉴스] 서울광역청년센터, 청년 예술인의 '첫 시작'을 응원하다 外",
@@ -44,6 +44,13 @@
       "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
       "date": "Wed, 07 Feb 2024 08:14:00 +0900",
       "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "이번 주말엔 재단에서 뭐 하지? …최종진이 그리는 수원의 미래",
+      "url": "http://www.suwonilbo.kr/news/articleView.html?idxno=317820",
+      "date": "Sat, 29 Aug 2026 13:56:00 +0900",
+      "source": "청년재단",
       "portal": "네이버"
     },
     {
@@ -110,9 +117,23 @@
       "portal": "네이버"
     },
     {
+      "title": "[세상은 하나님의 일터] 놀이·기술로사회적 연대… 버려진 공간에 이야...",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000007212&cp=nv",
+      "date": "Sat, 29 Aug 2026 03:07:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
       "title": "강북구 ‘자살·은둔·고독사 0’ 첫발 뗐다",
       "url": "https://www.naeil.com/news/read/600380?ref=naver",
       "date": "Fri, 28 Aug 2026 13:06:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "韓총리, 고립·은둔청년 지원현장 찾아… 공공·민간 역할 나눠야",
+      "url": "https://www.yna.co.kr/view/AKR20260729175600001?input=1195m",
+      "date": "Wed, 29 Jul 2026 19:27:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
@@ -127,20 +148,6 @@
       "title": "'안무서운회사' 찾은 한 총리…고립·은둔 청년 만났다",
       "url": "https://www.nocutnews.co.kr/news/6555332?utm_source=naver&utm_medium=article&utm_campaign=20260729064712",
       "date": "Wed, 29 Jul 2026 15:45:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "한성숙 총리, 고립·은둔 경험 청년 간담회",
-      "url": "https://www.newsis.com/view/NISI20260729_0021381534",
-      "date": "Wed, 29 Jul 2026 15:12:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "고립·은둔 청년 셰어하우스 둘러보는 한성숙 총리",
-      "url": "https://www.newsis.com/view/NISI20260729_0021381535",
-      "date": "Wed, 29 Jul 2026 15:12:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
