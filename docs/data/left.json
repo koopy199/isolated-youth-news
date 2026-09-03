@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-02T12:13:40.332+09:00",
+  "updated_at": "2026-09-03T12:14:54.026+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 5,
+    "청년재단": 4,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 35,
+  "total": 34,
   "items": [
     {
       "title": "[청년뉴스] 서울광역청년센터, 청년 예술인의 '첫 시작'을 응원하다 外",
@@ -47,37 +47,30 @@
       "portal": "네이버"
     },
     {
-      "title": "성남시 청년창업 11팀, 실리콘밸리서 사업화 가능성 키운다",
-      "url": "https://www.cnbnews.com/news/articleView.html?idxno=1013959",
-      "date": "Wed, 02 Sep 2026 11:54:00 +0900",
+      "title": "제주도의회 도정질문…청년·안전망·치매예방 대책 주문",
+      "url": "https://www.jemin.com/news/articleView.html?idxno=842475",
+      "date": "Thu, 03 Sep 2026 11:54:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "제주청년센터 '아이키움수다' 참여자 모집",
-      "url": "https://www.jejudomin.co.kr/news/articleView.html?idxno=321929",
-      "date": "Wed, 02 Sep 2026 11:00:00 +0900",
+      "title": "정다운 제주도의원  청년 떠나는 제주도, 청년정책 인력은 도리어 축소...",
+      "url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=598417",
+      "date": "Thu, 03 Sep 2026 11:42:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "육아 고민 함께 나눠요 …제주 청년 부모들의 특별한 수다",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3682123",
-      "date": "Wed, 02 Sep 2026 10:00:00 +0900",
+      "title": "성남시, 혁신기술 청년창업 11개팀 지원… 실리콘밸리 연수도",
+      "url": "https://www.newsis.com/view/NISX20260902_0003773534",
+      "date": "Wed, 02 Sep 2026 15:44:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "제주청년센터, 한·영 언어교환…청년들의 '글로벌 괸당' 만들기",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3682114",
-      "date": "Wed, 02 Sep 2026 09:58:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "성남시, '청년창업 아이디에이션 4.0' 참가자 15명 단계별 지원",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1408859",
-      "date": "Wed, 02 Sep 2026 08:42:00 +0900",
+      "title": "서울시 청년정책 사령탑 교체…박주희 전 청년재단 사무총장 임용",
+      "url": "https://www.sidae.com/article/2026082518230735889",
+      "date": "Wed, 02 Sep 2026 05:30:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
