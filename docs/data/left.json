@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-09-03T12:14:54.026+09:00",
+  "updated_at": "2026-09-04T12:14:41.220+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 4,
+    "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 34,
+  "total": 35,
   "items": [
     {
       "title": "[청년뉴스] 서울광역청년센터, 청년 예술인의 '첫 시작'을 응원하다 外",
@@ -47,31 +47,45 @@
       "portal": "네이버"
     },
     {
-      "title": "제주도의회 도정질문…청년·안전망·치매예방 대책 주문",
-      "url": "https://www.jemin.com/news/articleView.html?idxno=842475",
-      "date": "Thu, 03 Sep 2026 11:54:00 +0900",
+      "title": "성남시의회, 성남시청소년청년재단 창립 18주년 행사 참석",
+      "url": "https://www.asiatime.co.kr/article/20260904500030",
+      "date": "Fri, 04 Sep 2026 10:26:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "정다운 제주도의원  청년 떠나는 제주도, 청년정책 인력은 도리어 축소...",
-      "url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=598417",
-      "date": "Thu, 03 Sep 2026 11:42:00 +0900",
+      "title": "성남시의회, 청소년청년재단 'Rise Up 18' 18주년 행사 참여",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1409914",
+      "date": "Fri, 04 Sep 2026 08:32:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시, 혁신기술 청년창업 11개팀 지원… 실리콘밸리 연수도",
-      "url": "https://www.newsis.com/view/NISX20260902_0003773534",
-      "date": "Wed, 02 Sep 2026 15:44:00 +0900",
+      "title": "성남시의회, 청소년청년재단 'Rise Up 18' 참석",
+      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2466574",
+      "date": "Thu, 03 Sep 2026 18:55:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "서울시 청년정책 사령탑 교체…박주희 전 청년재단 사무총장 임용",
-      "url": "https://www.sidae.com/article/2026082518230735889",
-      "date": "Wed, 02 Sep 2026 05:30:00 +0900",
+      "title": "'창립 18주년' 성남시청소년청년재단",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3033478",
+      "date": "Thu, 03 Sep 2026 18:08:00 +0900",
       "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "성남시청소년청년재단 창립 18주년…청년까지 지원 확대",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260903010001297",
+      "date": "Thu, 03 Sep 2026 14:44:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "청소년 지원 끝난 뒤엔 어디로?…성북구, '경계선 지능 청년' 지원 공백...",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=226023",
+      "date": "Thu, 03 Sep 2026 12:32:00 +0900",
+      "source": "고민정거장",
       "portal": "네이버"
     },
     {
@@ -99,13 +113,6 @@
       "title": "청년 위한 '북캉스'…가산도서관, 여름 독서문화축제 개최",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3662226",
       "date": "Wed, 12 Aug 2026 08:50:00 +0900",
-      "source": "고민정거장",
-      "portal": "네이버"
-    },
-    {
-      "title": "'청년 외로움 문제' 해결 모색...서대문구, '론니마켓' 컬처톤 1기 참여...",
-      "url": "https://www.cnbizm.com/news/articleView.html?idxno=306433",
-      "date": "Wed, 24 Jun 2026 09:26:00 +0900",
       "source": "고민정거장",
       "portal": "네이버"
     },
