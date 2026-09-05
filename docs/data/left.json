@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T12:14:41.220+09:00",
+  "updated_at": "2026-09-05T12:16:51.318+09:00",
   "stats": {
     "사단법인 오늘은": 5,
     "청년재단": 5,
@@ -11,6 +11,13 @@
   },
   "total": 35,
   "items": [
+    {
+      "title": "내가 화를 내도 되나요",
+      "url": "http://news.inochong.org/detail.php?number=6568&thread=23r16",
+      "date": "Fri, 04 Sep 2026 16:00:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
     {
       "title": "[청년뉴스] 서울광역청년센터, 청년 예술인의 '첫 시작'을 응원하다 外",
       "url": "https://www.ibabynews.com/news/articleView.html?idxno=153641",
@@ -40,10 +47,10 @@
       "portal": "네이버"
     },
     {
-      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
-      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
-      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
-      "source": "사단법인 오늘은",
+      "title": "성남시의회, 창립 18년 맞은 성남시청소년청년재단 기념행사 참석",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3684991",
+      "date": "Fri, 04 Sep 2026 14:02:00 +0900",
+      "source": "청년재단",
       "portal": "네이버"
     },
     {
@@ -71,13 +78,6 @@
       "title": "'창립 18주년' 성남시청소년청년재단",
       "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3033478",
       "date": "Thu, 03 Sep 2026 18:08:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "성남시청소년청년재단 창립 18주년…청년까지 지원 확대",
-      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260903010001297",
-      "date": "Thu, 03 Sep 2026 14:44:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
