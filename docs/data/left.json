@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-14T12:42:32.803+09:00",
+  "updated_at": "2026-09-15T12:43:15.552+09:00",
   "stats": {
-    "사단법인 오늘은": 5,
+    "사단법인 오늘은": 2,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 35,
+  "total": 32,
   "items": [
     {
       "title": "내가 화를 내도 되나요",
@@ -26,58 +26,37 @@
       "portal": "네이버"
     },
     {
-      "title": "사단법인 오늘은, 청년 마음 챙김 위한 문화예술 참여 프로그램 '아트퍼...",
-      "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
-      "date": "Wed, 31 Jul 2024 11:02:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "문화예술 사단법인 오늘은, '청년zip중' 예술가 22명 지원",
-      "url": "http://www.handmk.com/news/articleView.html?idxno=20093",
-      "date": "Wed, 07 Feb 2024 10:16:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
-      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
-      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "임병택 시흥시장  청년에게 일할 곳·공부할 곳·놀 곳 더 만들겠다",
-      "url": "https://www.ajunews.com/view/20260913161747410",
-      "date": "Sun, 13 Sep 2026 16:20:00 +0900",
+      "title": "부산시, 청년 지역정착 해법 찾는다…청년재단과 협력 강화",
+      "url": "http://www.inews24.com/view/2005698",
+      "date": "Tue, 15 Sep 2026 11:18:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "취업문 좁아지자 ‘1200만원 코칭’까지…청년 덮친 취업 사교육",
-      "url": "https://www.kbsm.net/news/view.php?idx=534005",
-      "date": "Sun, 13 Sep 2026 14:22:00 +0900",
+      "title": "부산시, 청년재단과 청년 지역정착 지원…오창석 이사장 정책고문 위촉",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3695491",
+      "date": "Tue, 15 Sep 2026 10:42:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "현직자 정보 없인 탈락할라 …취준 청년들 '고가 학원' 압박감",
-      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000064840",
-      "date": "Sun, 13 Sep 2026 14:15:00 +0900",
+      "title": "성남시청소년청년재단, 취약계층 초·중학생 대상 찾아가는 'AI 패스파인...",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1414000",
+      "date": "Tue, 15 Sep 2026 10:14:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "임병택 시흥시장  청년의 도전과 성장이 시흥의 미래 …청년 주도 활동...",
-      "url": "http://www.fieldnews.kr/news/articleView.html?idxno=31483",
-      "date": "Sun, 13 Sep 2026 13:54:00 +0900",
+      "title": "부산시, 청년재단 오창석 이사장 정책 고문 위촉",
+      "url": "https://www.nocutnews.co.kr/news/6578120?utm_source=naver&utm_medium=article&utm_campaign=20260915100505",
+      "date": "Tue, 15 Sep 2026 10:06:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "시흥시, 청년주간 마무리…'청년의 오늘이 시흥의 내일'",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5061474",
-      "date": "Sun, 13 Sep 2026 11:00:00 +0900",
+      "title": "부산시-청년재단 맞손…청년 정착, 일자리만 보지 않는다",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=760382",
+      "date": "Tue, 15 Sep 2026 08:18:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -117,38 +96,52 @@
       "portal": "네이버"
     },
     {
-      "title": "무신사 창고에 쌓였던 재고 5만 벌, '옷장'으로 변신한 사연",
-      "url": "https://futurechosun.com/?p=159942",
-      "date": "Fri, 11 Sep 2026 07:00:00 +0900",
+      "title": "고립청년 사회적 비용 5조3000억 원…기업은 무엇을 해야 하나",
+      "url": "https://futurechosun.com/?p=160259",
+      "date": "Tue, 15 Sep 2026 10:32:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
     {
-      "title": "한경협, 14일 ‘고립·은둔 청년’ 세미나…민관 협력 해법 찾는다",
-      "url": "https://www.mk.co.kr/article/12145281",
-      "date": "Sun, 06 Sep 2026 13:55:00 +0900",
+      "title": "국내 고립·은둔 청년 54만명 육박 …  취업 실패 전 조기 개입해야",
+      "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=89236",
+      "date": "Mon, 14 Sep 2026 18:30:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
     {
-      "title": "한경협, 고립·은둔 청년 문제 해소 세미나 개최",
-      "url": "https://www.news1.kr/industry/general-industry/6281310",
-      "date": "Sun, 06 Sep 2026 13:34:00 +0900",
+      "title": "고립·은둔 청년 53만8000명... 취업 막히자 고립으로 밀려난 청년들",
+      "url": "https://www.insight.co.kr/news/573456",
+      "date": "Mon, 14 Sep 2026 18:10:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
     {
-      "title": "'고립·은둔 청년 54만' 한경협, 청년층 겪는 어려움 해법 찾기 나서",
-      "url": "http://www.metroseoul.co.kr/article/20260906500130",
-      "date": "Sun, 06 Sep 2026 13:22:00 +0900",
+      "title": "한경협, 고립·은둔 청년 53.8만명 사회 연결 방안 모색",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=212403",
+      "date": "Mon, 14 Sep 2026 18:02:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
     {
-      "title": "한경협, '고립·은둔 청년을 위한 과제' 세미나 14일 개최",
-      "url": "https://www.fnnews.com/news/202609061149534660",
-      "date": "Sun, 06 Sep 2026 11:55:00 +0900",
+      "title": "취업부터 시키면 다시 고립 왜? …청년 패널이 말한 회복의 조건",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065599201851524",
+      "date": "Mon, 14 Sep 2026 16:58:00 +0900",
       "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "금천·광명·관악·영등포 청년 400명 한자리에…'유스 챔피언십' 성료",
+      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=227536",
+      "date": "Tue, 15 Sep 2026 11:32:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
+      "title": "서울·광명 4개 청년센터 공동 개최, 2026년 유스 챔피언십 400명 열기",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3695281",
+      "date": "Tue, 15 Sep 2026 09:08:00 +0900",
+      "source": "광명시 청년동",
       "portal": "네이버"
     },
     {
@@ -169,20 +162,6 @@
       "title": "박승원 민주당 최고위원 후보(광명시장), 청년 정책당 비전 제시 눈길",
       "url": "https://www.kgnews.co.kr/news/article.html?no=904758",
       "date": "Wed, 22 Jul 2026 15:32:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "[현장 1분 브리핑]광명시, 청년 플랫폼 ‘라임’ 가동…관계 살아있는 ...",
-      "url": "https://www.nspna.com/news/?mode=view&newsid=817422",
-      "date": "Mon, 22 Jun 2026 08:06:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "광명시 청년 공공 관계 플랫폼 '라임' 출범",
-      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3067142",
-      "date": "Sun, 21 Jun 2026 16:32:00 +0900",
       "source": "광명시 청년동",
       "portal": "네이버"
     },
@@ -222,37 +201,37 @@
       "portal": "네이버"
     },
     {
-      "title": "560번째 '아름인도서관' 김해에…신한카드, 지원대상 확대",
-      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=208114",
-      "date": "Fri, 11 Sep 2026 09:40:00 +0900",
+      "title": "고립청년 사회적 비용 5조3000억 원…기업은 무엇을 해야 하나",
+      "url": "https://futurechosun.com/?p=160259",
+      "date": "Tue, 15 Sep 2026 10:32:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     },
     {
-      "title": "가족돌봄 경험을 정책 제안으로 …서울시 청년상 대상 아나운서 이주빈...",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1411364",
-      "date": "Tue, 08 Sep 2026 14:04:00 +0900",
+      "title": "국내 고립·은둔 청년 54만명 육박 …  취업 실패 전 조기 개입해야",
+      "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=89236",
+      "date": "Mon, 14 Sep 2026 18:30:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     },
     {
-      "title": "서울시 청년상 대상에 '가족돌봄청년' 이주빈 아나운서",
-      "url": "https://www.yna.co.kr/view/AKR20260908043000004?input=1195m",
-      "date": "Tue, 08 Sep 2026 11:15:00 +0900",
+      "title": "고립·은둔 청년 53만8000명... 취업 막히자 고립으로 밀려난 청년들",
+      "url": "https://www.insight.co.kr/news/573456",
+      "date": "Mon, 14 Sep 2026 18:10:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     },
     {
-      "title": "가족돌봄청년 목소리 낸 이주빈 아나운서, 서울시 청년상 대상",
-      "url": "https://www.news1.kr/local/seoul/6282936",
-      "date": "Tue, 08 Sep 2026 11:15:00 +0900",
+      "title": "한경협, 고립·은둔 청년 53.8만명 사회 연결 방안 모색",
+      "url": "http://www.srtimes.kr/news/articleView.html?idxno=212403",
+      "date": "Mon, 14 Sep 2026 18:02:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     },
     {
-      "title": "고립청년 56명, 밤길 걷기 완주…생명존중 문화 확산 앞장",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3687682",
-      "date": "Mon, 07 Sep 2026 22:12:00 +0900",
+      "title": "고립·은둔 청년 53만8천명... 복지 아닌 사회적 투자로 봐야",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=310599",
+      "date": "Mon, 14 Sep 2026 16:38:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
