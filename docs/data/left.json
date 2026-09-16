@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-15T12:43:15.552+09:00",
+  "updated_at": "2026-09-16T12:39:51.615+09:00",
   "stats": {
-    "사단법인 오늘은": 2,
+    "사단법인 오늘은": 0,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,54 +9,40 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 32,
+  "total": 30,
   "items": [
     {
-      "title": "내가 화를 내도 되나요",
-      "url": "http://news.inochong.org/detail.php?number=6568&thread=23r16",
-      "date": "Fri, 04 Sep 2026 16:00:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
-      "url": "https://www.lifein.news/news/articleView.html?idxno=17624",
-      "date": "Thu, 01 Aug 2024 10:38:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "부산시, 청년 지역정착 해법 찾는다…청년재단과 협력 강화",
-      "url": "http://www.inews24.com/view/2005698",
-      "date": "Tue, 15 Sep 2026 11:18:00 +0900",
+      "title": "부산시-청년재단 업무협약 “청년 정착·자립 지원 나선다”",
+      "url": "https://www.viva100.com/article/20260916500607",
+      "date": "Wed, 16 Sep 2026 10:48:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "부산시, 청년재단과 청년 지역정착 지원…오창석 이사장 정책고문 위촉",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3695491",
-      "date": "Tue, 15 Sep 2026 10:42:00 +0900",
+      "title": "성남 정자유스센터, 환경정화와 청년창업 잇는 자원순환 실험",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1414600",
+      "date": "Wed, 16 Sep 2026 10:40:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 취약계층 초·중학생 대상 찾아가는 'AI 패스파인...",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1414000",
-      "date": "Tue, 15 Sep 2026 10:14:00 +0900",
+      "title": "[부산소식]부산형 청년정책, 정착과 성장 두 축으로 확산 외",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1406586",
+      "date": "Wed, 16 Sep 2026 09:18:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "부산시, 청년재단 오창석 이사장 정책 고문 위촉",
-      "url": "https://www.nocutnews.co.kr/news/6578120?utm_source=naver&utm_medium=article&utm_campaign=20260915100505",
-      "date": "Tue, 15 Sep 2026 10:06:00 +0900",
+      "title": "부산시 정책고문에 오창석 청년재단 이사장",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8664693&ref=A",
+      "date": "Wed, 16 Sep 2026 09:02:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "부산시-청년재단 맞손…청년 정착, 일자리만 보지 않는다",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=760382",
-      "date": "Tue, 15 Sep 2026 08:18:00 +0900",
+      "title": "부산시, 청년 지역 정착 지원 확대…일자리·주거·교육 등 6개 분야 협...",
+      "url": "http://www.newstown.co.kr/news/articleView.html?idxno=715939",
+      "date": "Tue, 15 Sep 2026 19:18:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -131,6 +117,27 @@
       "portal": "네이버"
     },
     {
+      "title": "[청년뉴스] 볼보그룹코리아, '볼보 뉴홈 빌더즈' 3기 발대식 개최… 전...",
+      "url": "https://www.ibabynews.com/news/articleView.html?idxno=154529",
+      "date": "Tue, 15 Sep 2026 20:46:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
+      "title": "금천구, 청년연합체육대회 '2026년 유스 챔피언십 인(YOUTH CHAMPIONSHIP IN)...",
+      "url": "https://www.cnbizm.com/news/articleView.html?idxno=315210",
+      "date": "Tue, 15 Sep 2026 15:36:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
+      "title": "금천ㆍ광명‧관악‧영등포구, 청년 400여 명 모였다 … '2026 청년연합체...",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1414215",
+      "date": "Tue, 15 Sep 2026 14:02:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
       "title": "금천·광명·관악·영등포 청년 400명 한자리에…'유스 챔피언십' 성료",
       "url": "https://www.job-post.co.kr/news/articleView.html?idxno=227536",
       "date": "Tue, 15 Sep 2026 11:32:00 +0900",
@@ -141,27 +148,6 @@
       "title": "서울·광명 4개 청년센터 공동 개최, 2026년 유스 챔피언십 400명 열기",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3695281",
       "date": "Tue, 15 Sep 2026 09:08:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "박승원, 민주당 최고위원선거 '다크호스' 부상…'염태영·황명선' 길 이...",
-      "url": "https://www.joongangenews.com/news/articleView.html?idxno=534807",
-      "date": "Thu, 23 Jul 2026 13:32:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "[패트롤] 광명시-부천시-시흥시-안산시-안양시",
-      "url": "https://www.ekn.kr/web/view.php?key=20260723029465298",
-      "date": "Thu, 23 Jul 2026 12:22:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "박승원 민주당 최고위원 후보(광명시장), 청년 정책당 비전 제시 눈길",
-      "url": "https://www.kgnews.co.kr/news/article.html?no=904758",
-      "date": "Wed, 22 Jul 2026 15:32:00 +0900",
       "source": "광명시 청년동",
       "portal": "네이버"
     },
@@ -201,6 +187,13 @@
       "portal": "네이버"
     },
     {
+      "title": "청년의 날 맞아 '기지개, 우리를 움직이다'…고립청년 교류의 장",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3696117",
+      "date": "Tue, 15 Sep 2026 17:20:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "고립청년 사회적 비용 5조3000억 원…기업은 무엇을 해야 하나",
       "url": "https://futurechosun.com/?p=160259",
       "date": "Tue, 15 Sep 2026 10:32:00 +0900",
@@ -225,13 +218,6 @@
       "title": "한경협, 고립·은둔 청년 53.8만명 사회 연결 방안 모색",
       "url": "http://www.srtimes.kr/news/articleView.html?idxno=212403",
       "date": "Mon, 14 Sep 2026 18:02:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "고립·은둔 청년 53만8천명... 복지 아닌 사회적 투자로 봐야",
-      "url": "https://www.ppss.kr/news/articleView.html?idxno=310599",
-      "date": "Mon, 14 Sep 2026 16:38:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
