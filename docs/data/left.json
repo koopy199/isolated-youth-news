@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-18T12:31:09.507+09:00",
+  "updated_at": "2026-09-19T12:28:02.820+09:00",
   "stats": {
-    "사단법인 오늘은": 0,
+    "사단법인 오늘은": 1,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,8 +9,15 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 30,
+  "total": 31,
   "items": [
+    {
+      "title": "내가 화를 내도 되나요",
+      "url": "http://news.inochong.org/detail.php?number=6568&thread=23r16",
+      "date": "Fri, 04 Sep 2026 16:00:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
     {
       "title": "청년재단, 청년의 날 맞이 ‘작은 꽃집’ 운영…청년에 ‘꽃 선물’ 응...",
       "url": "https://swtvnews.com/news/newsview.php?ncode=1065573814335199",
@@ -187,6 +194,13 @@
       "portal": "네이버"
     },
     {
+      "title": "[더나은미래 주간브리핑] 투자도 CSR도 ‘임팩트’로…사회문제 푸는 자...",
+      "url": "https://futurechosun.com/?p=160702",
+      "date": "Fri, 18 Sep 2026 17:00:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "“우리 옆집에도 있을 수 있다”…고립·은둔 청년 54만명",
       "url": "https://www.nongmin.com/article/20260916500186",
       "date": "Wed, 16 Sep 2026 19:11:00 +0900",
@@ -211,13 +225,6 @@
       "title": "국내 고립·은둔 청년 54만명 육박 …  취업 실패 전 조기 개입해야",
       "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=89236",
       "date": "Mon, 14 Sep 2026 18:30:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "고립·은둔 청년 53만8000명... 취업 막히자 고립으로 밀려난 청년들",
-      "url": "https://www.insight.co.kr/news/573456",
-      "date": "Mon, 14 Sep 2026 18:10:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
