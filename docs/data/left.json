@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-23T12:37:56.834+09:00",
+  "updated_at": "2026-09-24T12:28:42.405+09:00",
   "stats": {
-    "사단법인 오늘은": 1,
+    "사단법인 오늘은": 3,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 31,
+  "total": 33,
   "items": [
     {
       "title": "내가 화를 내도 되나요",
@@ -19,37 +19,51 @@
       "portal": "네이버"
     },
     {
-      "title": "대전시, 전명자 대전평생교육원장·민병권 대전청년재단 대표 임명",
-      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2303180",
-      "date": "Wed, 23 Sep 2026 11:08:00 +0900",
+      "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
+      "url": "https://www.lifein.news/news/articleView.html?idxno=17624",
+      "date": "Thu, 01 Aug 2024 10:38:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "사단법인 오늘은, 청년 마음 챙김 위한 문화예술 참여 프로그램 '아트퍼...",
+      "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
+      "date": "Wed, 31 Jul 2024 11:02:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "43조 청년예산…'스펙 부담·채용 공정성'은 빈틈",
+      "url": "http://news.ebs.co.kr/ebsnews/allView/60772270/N",
+      "date": "Wed, 23 Sep 2026 18:54:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "대전평생교육원 전명자·대전청년재단 민병권 신임 대표 임명",
-      "url": "https://www.yna.co.kr/view/AKR20260923065300063?input=1195m",
-      "date": "Wed, 23 Sep 2026 10:17:00 +0900",
+      "title": "성남시청소년청년재단, '제2회 성남 청청 페스티벌'에 4000여 명 참여",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1417906",
+      "date": "Wed, 23 Sep 2026 17:36:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "스마일게이트 퓨처랩, 성남 청소년·청년 창의교육 확대",
-      "url": "https://zdnet.co.kr/view/?no=20260922164537",
-      "date": "Tue, 22 Sep 2026 16:46:00 +0900",
+      "title": "성남시청소년청년재단, 추석 앞두고 취약계층 청소년에 장학금",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3035694",
+      "date": "Wed, 23 Sep 2026 16:52:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 청소년·청년 창의 교육 활성 역량 강화",
-      "url": "https://gg.newdaily.co.kr/site/data/html/2026/09/22/2026092200284.html",
-      "date": "Tue, 22 Sep 2026 16:42:00 +0900",
+      "title": "NH농협은행 부산본부 ‘2026 부산청년주간’ 동참",
+      "url": "https://www.nongmin.com/article/20260923500422",
+      "date": "Wed, 23 Sep 2026 16:39:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "스마일게이트 퓨처랩, 성남시청소년청년재단과 청소년들의 AI 창작 활동...",
-      "url": "https://gamefocus.co.kr/detail.php?number=179337",
-      "date": "Tue, 22 Sep 2026 15:58:00 +0900",
+      "title": "성남시청소년청년재단, 진아교통 기탁금으로 청소년 4명에 500만원",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1417877",
+      "date": "Wed, 23 Sep 2026 14:56:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -194,6 +208,13 @@
       "portal": "네이버"
     },
     {
+      "title": "취준생은 방구석 은둔, 직장인은 공황장애… “그럼에도 잘 살고 싶다”",
+      "url": "https://health.chosun.com/site/data/html_dir/2026/09/23/2026092302519.html",
+      "date": "Wed, 23 Sep 2026 13:35:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "“우리 옆집에도 있을 수 있다”…고립·은둔 청년 54만명",
       "url": "https://www.nongmin.com/article/20260916500186",
       "date": "Wed, 16 Sep 2026 19:11:00 +0900",
@@ -218,13 +239,6 @@
       "title": "국내 고립·은둔 청년 54만명 육박 …  취업 실패 전 조기 개입해야",
       "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=89236",
       "date": "Mon, 14 Sep 2026 18:30:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "고립·은둔 청년 53만8000명... 취업 막히자 고립으로 밀려난 청년들",
-      "url": "https://www.insight.co.kr/news/573456",
-      "date": "Mon, 14 Sep 2026 18:10:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
