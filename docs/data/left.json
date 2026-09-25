@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-24T12:28:42.405+09:00",
+  "updated_at": "2026-09-25T12:45:52.900+09:00",
   "stats": {
-    "사단법인 오늘은": 3,
+    "사단법인 오늘은": 4,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 33,
+  "total": 34,
   "items": [
     {
       "title": "내가 화를 내도 되나요",
@@ -29,6 +29,13 @@
       "title": "사단법인 오늘은, 청년 마음 챙김 위한 문화예술 참여 프로그램 '아트퍼...",
       "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
       "date": "Wed, 31 Jul 2024 11:02:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
+      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
+      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
       "source": "사단법인 오늘은",
       "portal": "네이버"
     },
@@ -124,16 +131,16 @@
       "portal": "네이버"
     },
     {
-      "title": "고립·은둔 청년 54만명 시대… 취업·관계 회복 함께 지원해야",
-      "url": "https://www.fnnews.com/news/202609141641448094",
-      "date": "Mon, 14 Sep 2026 16:57:00 +0900",
+      "title": "취업부터 시키면 다시 고립 왜? …청년 패널이 말한 회복의 조건",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065599201851524",
+      "date": "Mon, 14 Sep 2026 16:58:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
     {
-      "title": "고립·은둔 청년 53만8천명... 복지 아닌 사회적 투자로 봐야",
-      "url": "https://www.ppss.kr/news/articleView.html?idxno=310599",
-      "date": "Mon, 14 Sep 2026 16:38:00 +0900",
+      "title": "고립·은둔 청년 54만명 시대… 취업·관계 회복 함께 지원해야",
+      "url": "https://www.fnnews.com/news/202609141641448094",
+      "date": "Mon, 14 Sep 2026 16:57:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
