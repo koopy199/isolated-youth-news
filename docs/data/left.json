@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-25T12:45:52.900+09:00",
+  "updated_at": "2026-09-26T12:51:52.659+09:00",
   "stats": {
-    "사단법인 오늘은": 4,
+    "사단법인 오늘은": 5,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 34,
+  "total": 35,
   "items": [
     {
       "title": "내가 화를 내도 되나요",
@@ -33,6 +33,13 @@
       "portal": "네이버"
     },
     {
+      "title": "문화예술 사단법인 오늘은, '청년zip중' 예술가 22명 지원",
+      "url": "http://www.handmk.com/news/articleView.html?idxno=20093",
+      "date": "Wed, 07 Feb 2024 10:16:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
       "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
       "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
       "date": "Wed, 07 Feb 2024 08:14:00 +0900",
@@ -47,13 +54,6 @@
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, '제2회 성남 청청 페스티벌'에 4000여 명 참여",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1417906",
-      "date": "Wed, 23 Sep 2026 17:36:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
       "title": "성남시청소년청년재단, 추석 앞두고 취약계층 청소년에 장학금",
       "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3035694",
       "date": "Wed, 23 Sep 2026 16:52:00 +0900",
@@ -61,16 +61,23 @@
       "portal": "네이버"
     },
     {
-      "title": "NH농협은행 부산본부 ‘2026 부산청년주간’ 동참",
-      "url": "https://www.nongmin.com/article/20260923500422",
-      "date": "Wed, 23 Sep 2026 16:39:00 +0900",
+      "title": "성남시청소년청년재단, 진아교통 기탁금으로 청소년 4명에 500만원",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1417877",
+      "date": "Wed, 23 Sep 2026 14:56:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 진아교통 기탁금으로 청소년 4명에 500만원",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1417877",
-      "date": "Wed, 23 Sep 2026 14:56:00 +0900",
+      "title": "허태정 대전시장, 평생교육 전명자·청년재단 민병권 임명",
+      "url": "http://www.ccnnews.co.kr/news/articleView.html?idxno=415417",
+      "date": "Wed, 23 Sep 2026 13:02:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "대전시, 전명자 대전평생교육원장·민병권 대전청년재단 대표 임명",
+      "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2303180",
+      "date": "Wed, 23 Sep 2026 11:08:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
