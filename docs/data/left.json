@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-03T13:05:59.995+09:00",
+  "updated_at": "2026-10-04T13:38:40.534+09:00",
   "stats": {
-    "사단법인 오늘은": 3,
+    "사단법인 오늘은": 4,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 33,
+  "total": 34,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -22,6 +22,13 @@
       "title": "사단법인 오늘은, 청년 마음 챙김 위한 문화예술 참여 프로그램 '아트퍼...",
       "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
       "date": "Wed, 31 Jul 2024 11:02:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "문화예술 사단법인 오늘은, '청년zip중' 예술가 22명 지원",
+      "url": "http://www.handmk.com/news/articleView.html?idxno=20093",
+      "date": "Wed, 07 Feb 2024 10:16:00 +0900",
       "source": "사단법인 오늘은",
       "portal": "네이버"
     },
@@ -103,6 +110,13 @@
       "portal": "네이버"
     },
     {
+      "title": "강북구, 청년 제안으로 자살예방 정책 꾸린다",
+      "url": "https://www.wflower.info/news/article.html?no=12435",
+      "date": "Wed, 30 Sep 2026 01:22:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
       "title": "강북구, 청년 제안·주민 선택으로 자살예방 정책 만든다",
       "url": "https://www.m-i.kr/news/articleView.html?idxno=2000237",
       "date": "Tue, 29 Sep 2026 13:30:00 +0900",
@@ -131,30 +145,9 @@
       "portal": "네이버"
     },
     {
-      "title": "강북구, 청년이 직접 만드는 자살예방 정책·표어 공모전 개최",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5066625",
-      "date": "Tue, 29 Sep 2026 08:54:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
       "title": "[청년뉴스] 볼보그룹코리아, '볼보 뉴홈 빌더즈' 3기 발대식 개최… 전...",
       "url": "https://www.ibabynews.com/news/articleView.html?idxno=154529",
       "date": "Tue, 15 Sep 2026 20:46:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "금천구, 청년연합체육대회 '2026년 유스 챔피언십 인(YOUTH CHAMPIONSHIP IN)...",
-      "url": "https://www.cnbizm.com/news/articleView.html?idxno=315210",
-      "date": "Tue, 15 Sep 2026 15:36:00 +0900",
-      "source": "광명시 청년동",
-      "portal": "네이버"
-    },
-    {
-      "title": "금천ㆍ광명‧관악‧영등포구, 청년 400여 명 모였다 … '2026 청년연합체...",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=1414215",
-      "date": "Tue, 15 Sep 2026 14:02:00 +0900",
       "source": "광명시 청년동",
       "portal": "네이버"
     },
@@ -169,6 +162,20 @@
       "title": "박승원, 민주당 최고위원선거 '다크호스' 부상…'염태영·황명선' 길 이...",
       "url": "https://www.joongangenews.com/news/articleView.html?idxno=534807",
       "date": "Thu, 23 Jul 2026 13:32:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
+      "title": "[패트롤] 광명시-부천시-시흥시-안산시-안양시",
+      "url": "https://www.ekn.kr/web/view.php?key=20260723029465298",
+      "date": "Thu, 23 Jul 2026 12:22:00 +0900",
+      "source": "광명시 청년동",
+      "portal": "네이버"
+    },
+    {
+      "title": "박승원 민주당 최고위원 후보(광명시장), 청년 정책당 비전 제시 눈길",
+      "url": "https://www.kgnews.co.kr/news/article.html?no=904758",
+      "date": "Wed, 22 Jul 2026 15:32:00 +0900",
       "source": "광명시 청년동",
       "portal": "네이버"
     },
