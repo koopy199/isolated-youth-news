@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-04T13:38:40.534+09:00",
+  "updated_at": "2026-10-05T13:25:20.354+09:00",
   "stats": {
-    "사단법인 오늘은": 4,
+    "사단법인 오늘은": 3,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 34,
+  "total": 33,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -22,13 +22,6 @@
       "title": "사단법인 오늘은, 청년 마음 챙김 위한 문화예술 참여 프로그램 '아트퍼...",
       "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
       "date": "Wed, 31 Jul 2024 11:02:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "문화예술 사단법인 오늘은, '청년zip중' 예술가 22명 지원",
-      "url": "http://www.handmk.com/news/articleView.html?idxno=20093",
-      "date": "Wed, 07 Feb 2024 10:16:00 +0900",
       "source": "사단법인 오늘은",
       "portal": "네이버"
     },
@@ -110,13 +103,6 @@
       "portal": "네이버"
     },
     {
-      "title": "강북구, 청년 제안으로 자살예방 정책 꾸린다",
-      "url": "https://www.wflower.info/news/article.html?no=12435",
-      "date": "Wed, 30 Sep 2026 01:22:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
       "title": "강북구, 청년 제안·주민 선택으로 자살예방 정책 만든다",
       "url": "https://www.m-i.kr/news/articleView.html?idxno=2000237",
       "date": "Tue, 29 Sep 2026 13:30:00 +0900",
@@ -141,6 +127,13 @@
       "title": "강북구, 청년 목소리 담은 자살예방 정책·표어 아이디어 공모",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3707838",
       "date": "Tue, 29 Sep 2026 09:52:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "강북구, 청년이 직접 만드는 자살예방 정책·표어 공모전 개최",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5066625",
+      "date": "Tue, 29 Sep 2026 08:54:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
@@ -215,6 +208,13 @@
       "portal": "네이버"
     },
     {
+      "title": "[고립의 장기화] ②  나는 도태된 사람 …스스로를 가둔 청년들",
+      "url": "https://www.yna.co.kr/view/AKR20261003040100004?input=1195m",
+      "date": "Mon, 05 Oct 2026 07:01:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "고립청년 위한 '생활공간 개선'…정리·수납 배우며 변화 경험",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3708799",
       "date": "Wed, 30 Sep 2026 08:58:00 +0900",
@@ -239,13 +239,6 @@
       "title": "청년의 날 맞아 '기지개, 우리를 움직이다'…고립청년 교류의 장",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3696117",
       "date": "Tue, 15 Sep 2026 17:20:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "고립청년 사회적 비용 5조3000억 원…기업은 무엇을 해야 하나",
-      "url": "https://futurechosun.com/?p=160259",
-      "date": "Tue, 15 Sep 2026 10:32:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
