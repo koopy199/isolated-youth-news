@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-07T13:40:07.015+09:00",
+  "updated_at": "2026-10-08T13:50:20.945+09:00",
   "stats": {
-    "사단법인 오늘은": 3,
-    "청년재단": 3,
+    "사단법인 오늘은": 2,
+    "청년재단": 2,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 31,
+  "total": 29,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -23,20 +23,6 @@
       "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
       "date": "Wed, 31 Jul 2024 11:02:00 +0900",
       "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
-      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
-      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "국립농업박물관-수원시청소년청년재단, 농업과 청소년·청년을 문화로 ...",
-      "url": "https://www.newsam.co.kr/news/article.html?no=44172",
-      "date": "Wed, 07 Oct 2026 09:52:00 +0900",
-      "source": "청년재단",
       "portal": "네이버"
     },
     {
@@ -89,37 +75,37 @@
       "portal": "네이버"
     },
     {
+      "title": "충주시, '2026 충주 물빛정원 페스타'로 초대합니다~!",
+      "url": "http://www.queen.co.kr/news/articleView.html?idxno=464401",
+      "date": "Thu, 08 Oct 2026 08:00:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "충주시청년센터, 고립·은둔 청년 위한 특강 마련",
+      "url": "https://www.dynews.co.kr/news/articleView.html?idxno=868620",
+      "date": "Wed, 07 Oct 2026 15:54:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "'은둔고수'가 건네는 손길… 충주시 청년센터, 유승규 대표 특강 개최",
+      "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1103650",
+      "date": "Wed, 07 Oct 2026 15:32:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "충주시청년센터, 고립·은둔 청년 위한 특강",
+      "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2445074",
+      "date": "Wed, 07 Oct 2026 13:58:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
       "title": "충주 청년들, 고립·은둔에서 다시 연결을 찾다",
       "url": "https://www.inews365.com/news/article.html?no=938409",
       "date": "Wed, 07 Oct 2026 13:38:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "충주시 청년센터, 고립·은둔 청년을 위한 특강 개최",
-      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1185532",
-      "date": "Wed, 07 Oct 2026 10:38:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "충주시 청년센터, 고립·은둔 청년 대상 특강",
-      "url": "https://www.ccreview.co.kr/news/articleView.html?idxno=359313",
-      "date": "Wed, 07 Oct 2026 10:20:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "유승규 안무서운회사 대표 특강, 충주 청년 고립·은둔 경험과 회복 과...",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3714380",
-      "date": "Wed, 07 Oct 2026 08:44:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "강북구, 청년 제안·주민 선택으로 자살예방 정책 만든다",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=2000237",
-      "date": "Tue, 29 Sep 2026 13:30:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
