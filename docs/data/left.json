@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T13:50:20.945+09:00",
+  "updated_at": "2026-10-09T13:53:41.038+09:00",
   "stats": {
-    "사단법인 오늘은": 2,
+    "사단법인 오늘은": 3,
     "청년재단": 2,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 29,
+  "total": 30,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -26,16 +26,23 @@
       "portal": "네이버"
     },
     {
-      "title": "[포토] 성남시청소년청년재단 정자유스센터, 정자1동 차 없는 카페거리...",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3714541",
-      "date": "Tue, 06 Oct 2026 22:10:00 +0900",
-      "source": "청년재단",
+      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
+      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
+      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
+      "source": "사단법인 오늘은",
       "portal": "네이버"
     },
     {
       "title": "與 김동아, 청년위원장 출마 선언… 청년 중심의 총선 승리 완수",
       "url": "https://www.newsis.com/view/NISX20261002_0003812639",
       "date": "Fri, 02 Oct 2026 14:57:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "인천시, '청년재단 설립'·'청년기금 조성' 추진",
+      "url": "https://www.yna.co.kr/view/AKR20260930056200065?input=1195m",
+      "date": "Wed, 30 Sep 2026 16:00:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
