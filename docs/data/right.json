@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-11T13:24:57.547+09:00",
-  "total": 25,
+  "updated_at": "2026-10-12T13:40:56.872+09:00",
+  "total": 23,
   "open": [
     {
       "title": "[경기지역본부]2026년 아동·청소년 디지털 유해환경 예방과 안전한 디지털 환경 조성사업",
@@ -27,14 +27,6 @@
       "status": "open"
     },
     {
-      "title": "[서현장학재단] 2026 자립준비청년 대학원생 교육비 지원사업 안내",
-      "url": "https://the-recoverycenter.org/Notice/?idx=171242098&bmode=view",
-      "date": "",
-      "source": "사단법인 푸른고래 리커버리센터",
-      "source_url": "https://the-recoverycenter.org",
-      "status": "open"
-    },
-    {
       "title": "2026 경기도 고립·은둔청년 지원사업",
       "url": "https://www.pie-edu.com/56",
       "date": "",
@@ -56,14 +48,6 @@
       "date": "",
       "source": "서울시고립예방센터",
       "source_url": "https://sihsc.welfare.seoul.kr/knockseoul/main.do",
-      "status": "open"
-    },
-    {
-      "title": "모집중 자립준비청년 [모집] 신용카드사회공헌재단 「신용 Step-Up」 긴급대출지원사업 2026.09.30 ~ 2026.10.11",
-      "url": "https://www.bss.or.kr/business-apply/credit-step-up-youth-emergency-loan-recruit-2026/",
-      "date": "2026-09-30",
-      "source": "사회연대은행 (함께만드는세상)",
-      "source_url": "https://www.bss.or.kr",
       "status": "open"
     },
     {
@@ -133,19 +117,19 @@
       "status": "closed"
     },
     {
-      "title": "2026 청년이음지원사업 (2026. 2. 12. 접수마감)",
-      "url": "https://change.beautifulfund.org/12900/2026-%ec%b2%ad%eb%85%84%ec%9d%b4%ec%9d%8c%ec%a7%80%ec%9b%90%ec%82%ac%ec%97%85-2026-2-12-%ec%a0%91%ec%88%98%eb%a7%88%ea%b0%90/",
-      "date": "2026-02-10",
-      "source": "아름다운재단",
-      "source_url": "https://change.beautifulfund.org/",
-      "status": "closed"
-    },
-    {
       "title": "2026 청소년공익활동지원사업「봄·바람」최종심사결과 발표",
       "url": "https://change.beautifulfund.org/13366/2026-%ec%b2%ad%ec%86%8c%eb%85%84%ea%b3%b5%ec%9d%b5%ed%99%9c%eb%8f%99%ec%a7%80%ec%9b%90%ec%82%ac%ec%97%85%e3%80%8c%eb%b4%84%c2%b7%eb%b0%94%eb%9e%8c%e3%80%8d%ec%b5%9c%ec%a2%85%ec%8b%ac%ec%82%ac%ea%b2%b0/",
       "date": "2026-06-24",
       "source": "아름다운재단",
       "source_url": "https://change.beautifulfund.org/",
+      "status": "closed"
+    },
+    {
+      "title": "모집마감 자립준비청년 [모집] 신용카드사회공헌재단 「신용 Step-Up」 긴급대출지원사업 2026.09.30 ~ 2026.10.11",
+      "url": "https://www.bss.or.kr/business-apply/credit-step-up-youth-emergency-loan-recruit-2026/",
+      "date": "2026-09-30",
+      "source": "사회연대은행 (함께만드는세상)",
+      "source_url": "https://www.bss.or.kr",
       "status": "closed"
     },
     {
