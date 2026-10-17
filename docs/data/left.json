@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-16T12:25:57.852+09:00",
+  "updated_at": "2026-10-17T12:16:28.947+09:00",
   "stats": {
-    "사단법인 오늘은": 2,
+    "사단법인 오늘은": 3,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 32,
+  "total": 33,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -26,6 +26,20 @@
       "portal": "네이버"
     },
     {
+      "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
+      "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
+      "date": "Wed, 07 Feb 2024 08:14:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "성남시청소년청년재단, 청소년 1인 1특허 교육 마무리",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2006761",
+      "date": "Fri, 16 Oct 2026 13:46:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
       "title": "성남시청소년청년재단, 관내 고교 3곳서 ‘1인 1특허’ 운영",
       "url": "https://www.asiatime.co.kr/article/20261016500118",
       "date": "Fri, 16 Oct 2026 11:28:00 +0900",
@@ -36,13 +50,6 @@
       "title": "野 청년미래보금자리론 질타…국유지 헐값 매각 논란엔  송구 (종합)",
       "url": "https://www.news1.kr/finance/general-finance/6321681",
       "date": "Thu, 15 Oct 2026 18:10:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "경기 지자체가 보장하는 청춘만남의 장 '호응'…청년 고립 막고 건전 교...",
-      "url": "https://www.joongboo.com/news/articleView.html?idxno=363739455",
-      "date": "Thu, 15 Oct 2026 17:38:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
