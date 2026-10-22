@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-21T12:35:44.739+09:00",
-  "total": 12,
+  "updated_at": "2026-10-22T12:35:27.083+09:00",
+  "total": 14,
   "open": [
     {
       "title": "2026 주거위기청년 지원사업 (연중 상시 접수)",
@@ -40,6 +40,22 @@
       "date": "",
       "source": "서울시고립예방센터",
       "source_url": "https://sihsc.welfare.seoul.kr/knockseoul/main.do",
+      "status": "open"
+    },
+    {
+      "title": "상시 모집중 자립준비청년 함께온기금자립준비청년 울타리 대출지원사업 수시 모집 중",
+      "url": "https://www.bss.or.kr/business-apply/together-warmth-fund-fence-loan-recruit-2025/",
+      "date": "수시 모집 중",
+      "source": "사회연대은행 (함께만드는세상)",
+      "source_url": "https://www.bss.or.kr",
+      "status": "open"
+    },
+    {
+      "title": "일시중단 금융위기청년 [모집] 청년 희망사다리 금융지원사업 2026.04.29 ~ 소진시까지",
+      "url": "https://www.bss.or.kr/business-apply/fif-youth-hope-ladder-loan-recruit-2026/",
+      "date": "수시 모집 중",
+      "source": "사회연대은행 (함께만드는세상)",
+      "source_url": "https://www.bss.or.kr",
       "status": "open"
     },
     {
