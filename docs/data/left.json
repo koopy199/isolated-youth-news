@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-22T12:34:31.397+09:00",
+  "updated_at": "2026-10-23T12:39:29.196+09:00",
   "stats": {
-    "사단법인 오늘은": 3,
+    "사단법인 오늘은": 4,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 33,
+  "total": 34,
   "items": [
     {
       "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
@@ -26,6 +26,13 @@
       "portal": "네이버"
     },
     {
+      "title": "문화예술 사단법인 오늘은, '청년zip중' 예술가 22명 지원",
+      "url": "http://www.handmk.com/news/articleView.html?idxno=20093",
+      "date": "Wed, 07 Feb 2024 10:16:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
       "title": "사단법인 오늘은, '청년zip중' 신진예술가 제작지원 공모",
       "url": "http://www.goodmorningcc.com/news/articleView.html?idxno=304355",
       "date": "Wed, 07 Feb 2024 08:14:00 +0900",
@@ -33,9 +40,30 @@
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 소외계층 청소년 180명 문화체험 지원",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5074730",
-      "date": "Thu, 22 Oct 2026 12:32:00 +0900",
+      "title": "성남시청소년청년재단 수정유스센터, 생활체육·수영 강좌 11월 재개",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=2009461",
+      "date": "Fri, 23 Oct 2026 10:26:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "청년재단·이케아 코리아, 청년 일경험 프로그램",
+      "url": "https://www.kmib.co.kr/article/20261022501779",
+      "date": "Thu, 22 Oct 2026 17:47:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "이케아, 자립 준비 청년들에 3개월 실무 프로그램  청년 일경험 프로그...",
+      "url": "https://www.kgnews.co.kr/news/article.html?no=916120",
+      "date": "Thu, 22 Oct 2026 16:14:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "성남시청소년청년재단 야탑유스센터, 24일 '바퀴로 쓰는 우리들의 이야...",
+      "url": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160282284033177",
+      "date": "Thu, 22 Oct 2026 14:12:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -43,27 +71,6 @@
       "title": "시흥시청소년청년재단, 문화예술 기반 국제협력 본격화",
       "url": "https://www.kmaeil.com/news/articleView.html?idxno=655288",
       "date": "Thu, 22 Oct 2026 10:58:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "시흥시청소년청년재단, 영국 청소년·청년 문화예술단 방한 교류",
-      "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2483217",
-      "date": "Thu, 22 Oct 2026 10:30:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "시흥-영국 킹스턴 청소년·청년, 문화예술로 국제교류 확대",
-      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5074573",
-      "date": "Thu, 22 Oct 2026 09:12:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "시흥시, 영국 청년 예술단과 교류",
-      "url": "http://www.breaknews.com/1244814",
-      "date": "Thu, 22 Oct 2026 08:40:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -110,13 +117,6 @@
       "portal": "네이버"
     },
     {
-      "title": "전주시복지재단, 위기청년 지원체계 논의…공공·민간 협력 강화",
-      "url": "https://www.thepowernews.co.kr/view.php?ud=202610151703382423dfcd109a8_7",
-      "date": "Thu, 15 Oct 2026 17:12:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
       "title": "충주시청년센터, 고립·은둔 청년 위한 특강",
       "url": "https://www.ccdailynews.com/news/articleView.html?idxno=2445074",
       "date": "Wed, 07 Oct 2026 13:58:00 +0900",
@@ -134,6 +134,13 @@
       "title": "충주시 청년센터, 고립·은둔 청년을 위한 특강 개최",
       "url": "https://www.ggilbo.com/news/articleView.html?idxno=1185532",
       "date": "Wed, 07 Oct 2026 10:38:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "유승규 안무서운회사 대표 특강, 충주 청년 고립·은둔 경험과 회복 과...",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3714380",
+      "date": "Wed, 07 Oct 2026 08:44:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
