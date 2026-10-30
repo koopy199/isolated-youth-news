@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-29T13:41:06.384+09:00",
+  "updated_at": "2026-10-30T13:40:52.931+09:00",
   "stats": {
-    "사단법인 오늘은": 2,
+    "사단법인 오늘은": 0,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,20 +9,27 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 32,
+  "total": 30,
   "items": [
     {
-      "title": "사단법인 오늘은, 고립청년 연결을 지원하는 '선라이즈캠프' 참가자 모...",
-      "url": "https://www.lifein.news/news/articleView.html?idxno=17624",
-      "date": "Thu, 01 Aug 2024 10:38:00 +0900",
-      "source": "사단법인 오늘은",
+      "title": "논산시, '군 청년 자립 지원'... 육군훈련소 73명 맞춤 힐링·금융 교육",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=511408",
+      "date": "Fri, 30 Oct 2026 10:50:00 +0900",
+      "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "사단법인 오늘은, 청년 마음 챙김 위한 문화예술 참여 프로그램 '아트퍼...",
-      "url": "https://www.lifein.news/news/articleView.html?idxno=17618",
-      "date": "Wed, 31 Jul 2024 11:02:00 +0900",
-      "source": "사단법인 오늘은",
+      "title": "창원시, 청년재단과 손잡고 지역 청년의 성장과 정착 지원",
+      "url": "http://www.gndomin.com/news/articleView.html?idxno=494884",
+      "date": "Thu, 29 Oct 2026 19:34:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "창원시, 청년재단과 업무협약…경력보유여성 취업 역량 강화",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=766636",
+      "date": "Thu, 29 Oct 2026 17:56:00 +0900",
+      "source": "청년재단",
       "portal": "네이버"
     },
     {
@@ -36,27 +43,6 @@
       "title": "창원시, 청년재단과 손잡고 지역 청년의 성장과 정착 지원",
       "url": "https://www.newsgn.com/news/articleView.html?idxno=582150",
       "date": "Thu, 29 Oct 2026 10:26:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "성남시청소년청년재단 판교유스센터, 널다리(板橋) 축제 31일 개최",
-      "url": "https://www.m-i.kr/news/articleView.html?idxno=2011738",
-      "date": "Thu, 29 Oct 2026 10:22:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단 ‘청년On Up’, 공공·청년기관과 고립·은둔 청년 사회 복귀 ...",
-      "url": "https://www.donga.com/news/Economy/article/all/20261028/134924214/1",
-      "date": "Thu, 29 Oct 2026 10:01:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단, 공공 및 청년기관과 맞손 ‘청년On Up(청년온앤업)’ 일경험...",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03637526645617840&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "date": "Thu, 29 Oct 2026 10:01:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
