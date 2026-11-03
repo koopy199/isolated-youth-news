@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-02T13:45:30.253+09:00",
+  "updated_at": "2026-11-03T14:37:19.680+09:00",
   "stats": {
-    "사단법인 오늘은": 0,
+    "사단법인 오늘은": 4,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,40 +9,68 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 30,
+  "total": 34,
   "items": [
     {
-      "title": "시흥시청소년청년재단 연성유스센터, 미디어리터러시 교육 운영",
-      "url": "https://www.kmaeil.com/news/articleView.html?idxno=656578",
-      "date": "Mon, 02 Nov 2026 10:54:00 +0900",
+      "title": "안무서운회사, 민간 기관과 고립·은둔 청년 일경험 프로그램 '청년On U...",
+      "url": "https://www.hankyung.com/article/202611029752O",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "고립·은둔 청년 24명, 민관 19곳서 3개월 일경험… 나눔·구호·사회적...",
+      "url": "https://www.donga.com/news/Economy/article/all/20261102/134949060/1",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "안무서운회사·청년재단, 19개 기관과 맞손… 고립·은둔 청년 24명 일경...",
+      "url": "https://www.fnnews.com/news/202611021017132902",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "안무서운회사, 민간 단체와 고립·은둔 청년 일경험 ‘청년On Up(청년온...",
+      "url": "https://www.khan.co.kr/article/202611030955018",
+      "date": "Tue, 03 Nov 2026 09:55:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
+      "title": "안무서운회사, 민간 기관과 고립·은둔 청년 일경험 프로그램 '청년On U...",
+      "url": "https://www.hankyung.com/article/202611029752O",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "논산시청소년청년재단, 40명 참여한 청년가족 문화학교 운영 성료",
-      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=511652",
-      "date": "Sun, 01 Nov 2026 21:26:00 +0900",
+      "title": "안무서운회사·청년재단, 19개 기관과 맞손… 고립·은둔 청년 24명 일경...",
+      "url": "https://www.fnnews.com/news/202611021017132902",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "박찬대 시장  청년의 도전·자립 든든히 뒷받침 …인천시·청년재단 협...",
-      "url": "https://www.cstimes.com/news/articleView.html?idxno=726112",
-      "date": "Sun, 01 Nov 2026 20:54:00 +0900",
+      "title": "고립·은둔 청년 24명, 민관 19곳서 3개월 일경험… 나눔·구호·사회적...",
+      "url": "https://www.donga.com/news/Economy/article/all/20261102/134949060/1",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "인천시·청년재단, 청년 정착·성장 지원 협력…전주기 지원 생태계 구...",
-      "url": "http://www.bizwnews.com/news/articleView.html?idxno=150522",
-      "date": "Sun, 01 Nov 2026 20:08:00 +0900",
+      "title": "안무서운회사, 민간 단체와 고립·은둔 청년 일경험 ‘청년On Up(청년온...",
+      "url": "https://www.khan.co.kr/article/202611030955018",
+      "date": "Tue, 03 Nov 2026 09:55:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "논산시청년센터, 군 청년 위한 힐링·금융교육 프로그램 운영",
-      "url": "https://www.ccdn.co.kr/news/articleView.html?idxno=1108115",
-      "date": "Sun, 01 Nov 2026 14:58:00 +0900",
+      "title": "인천시-청년재단, 청년 일자리·주거·교육 협력",
+      "url": "https://www.mt.co.kr/policy/2026/11/02/2026110215570356930",
+      "date": "Mon, 02 Nov 2026 16:01:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -82,37 +110,37 @@
       "portal": "네이버"
     },
     {
+      "title": "안무서운회사, 민간 기관과 고립·은둔 청년 일경험 프로그램 '청년On U...",
+      "url": "https://www.hankyung.com/article/202611029752O",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "안무서운회사·청년재단, 19개 기관과 맞손… 고립·은둔 청년 24명 일경...",
+      "url": "https://www.fnnews.com/news/202611021017132902",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "고립·은둔 청년 24명, 민관 19곳서 3개월 일경험… 나눔·구호·사회적...",
+      "url": "https://www.donga.com/news/Economy/article/all/20261102/134949060/1",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
+      "title": "안무서운회사, 민간 단체와 고립·은둔 청년 일경험 ‘청년On Up(청년온...",
+      "url": "https://www.khan.co.kr/article/202611030955018",
+      "date": "Tue, 03 Nov 2026 09:55:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
       "title": "청년재단 ‘청년On Up’, 공공·청년기관과 고립·은둔 청년 사회 복귀 ...",
       "url": "https://www.donga.com/news/Economy/article/all/20261028/134924214/1",
       "date": "Thu, 29 Oct 2026 10:01:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단, 공공 및 청년기관과 맞손 ‘청년On Up(청년온앤업)’ 일경험...",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03637526645617840&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "date": "Thu, 29 Oct 2026 10:01:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단, 지역 공공·청년기관과 '청년On Up' 일경험 운영…고립·은둔...",
-      "url": "https://www.hankyung.com/article/202610280702O",
-      "date": "Thu, 29 Oct 2026 10:01:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단, 고립청년 돕는다…일경험 ‘청년On Up’ 운영",
-      "url": "https://www.joongang.co.kr/article/25473945",
-      "date": "Thu, 29 Oct 2026 10:00:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "청년재단, 공공·청년지원기관 연계 ‘청년On Up(청년온앤업)’ 일경험...",
-      "url": "https://www.khan.co.kr/article/202610290955018",
-      "date": "Thu, 29 Oct 2026 09:55:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
@@ -208,16 +236,16 @@
       "portal": "네이버"
     },
     {
-      "title": "오세훈 서울시장, 간부회의서 '소속감·자부심' 제고 위한 실질적 프로...",
-      "url": "https://www.discoverynews.kr/news/articleView.html?idxno=1105044",
-      "date": "Tue, 27 Oct 2026 13:02:00 +0900",
+      "title": "오세훈  청년 자존감·관계 회복 정책 강화 ...청년 정책 발굴 주문",
+      "url": "https://www.ajunews.com/view/20261027113059661",
+      "date": "Tue, 27 Oct 2026 11:34:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     },
     {
-      "title": "오세훈  청년 자존감·관계 회복 정책 강화 ...청년 정책 발굴 주문",
-      "url": "https://www.ajunews.com/view/20261027113059661",
-      "date": "Tue, 27 Oct 2026 11:34:00 +0900",
+      "title": "오세훈  청년 자존감 회복 돕는 정책 마련하라 …서울시 지원 확대",
+      "url": "https://www.fnnews.com/news/202610271129284072",
+      "date": "Tue, 27 Oct 2026 11:33:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
