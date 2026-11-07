@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-06T14:26:34.112+09:00",
+  "updated_at": "2026-11-07T13:54:55.858+09:00",
   "stats": {
-    "사단법인 오늘은": 4,
-    "청년재단": 4,
+    "사단법인 오늘은": 5,
+    "청년재단": 3,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
@@ -11,6 +11,13 @@
   },
   "total": 33,
   "items": [
+    {
+      "title": "지역 생활 만족하지만 5년 내 떠난다 … 청년들의 솔직한 고백",
+      "url": "https://www.woodkorea.co.kr/news/articleView.html?idxno=92418",
+      "date": "Sat, 07 Nov 2026 01:18:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
     {
       "title": "안무서운회사, 민간 기관과 고립·은둔 청년 일경험 프로그램 '청년On U...",
       "url": "https://www.hankyung.com/article/202611029752O",
@@ -50,13 +57,6 @@
       "title": "동아오츠카, 청년재단과 협력해 취업·건강증진 지원 활동 확대",
       "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598776070745",
       "date": "Thu, 05 Nov 2026 16:42:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "구직 청년, 불합격·면접 미흡에 심리적 피로 커 … 동아오츠카, 취준...",
-      "url": "https://www.nbntv.co.kr/news/articleView.html?idxno=4027044",
-      "date": "Thu, 05 Nov 2026 14:20:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
