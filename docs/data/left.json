@@ -1,16 +1,23 @@
 {
-  "updated_at": "2026-11-08T13:47:25.364+09:00",
+  "updated_at": "2026-11-09T13:56:24.946+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 3,
+    "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 33,
+  "total": 35,
   "items": [
+    {
+      "title": "[청년의 소리] 청년을 머물게 하는 도시와 ‘일상의 창작’",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20261109.22021007764",
+      "date": "Sun, 08 Nov 2026 18:56:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
     {
       "title": "지역 생활 만족하지만 5년 내 떠난다 … 청년들의 솔직한 고백",
       "url": "https://www.woodkorea.co.kr/news/articleView.html?idxno=92418",
@@ -40,30 +47,37 @@
       "portal": "네이버"
     },
     {
-      "title": "안무서운회사, 민간 단체와 고립·은둔 청년 일경험 ‘청년On Up(청년온...",
-      "url": "https://www.khan.co.kr/article/202611030955018",
-      "date": "Tue, 03 Nov 2026 09:55:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "LH 청년 매입임대  2·3순위에도 기회 줘야 …입주 쿼터제 제안(종합)",
-      "url": "https://www.news1.kr/realestate/general/6344676",
-      "date": "Thu, 05 Nov 2026 17:36:00 +0900",
+      "title": "청년재단, '청년 현직자 멘토 커넥팅 데이' 성료",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=319831",
+      "date": "Mon, 09 Nov 2026 13:51:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "동아오츠카, 청년재단과 협력해 취업·건강증진 지원 활동 확대",
-      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598776070745",
-      "date": "Thu, 05 Nov 2026 16:42:00 +0900",
+      "title": "청년재단, '청년 현직자 멘토 커넥팅 데이' 진행",
+      "url": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1071962",
+      "date": "Mon, 09 Nov 2026 13:46:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "동아오츠카, 오로나민C로 청년 취업 응원...멘토링 이어 현장 목소리 청...",
-      "url": "https://www.e-science.co.kr/news/articleView.html?idxno=138997",
-      "date": "Thu, 05 Nov 2026 10:14:00 +0900",
+      "title": "성남시청소년청년재단  청소년 성장·조직 혁신 아우르는 코칭문화 성과...",
+      "url": "https://www.ajunews.com/view/20261109110450985",
+      "date": "Mon, 09 Nov 2026 13:42:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "청년재단, '청년 현직자 멘토 커넥팅 데이' 개최…청년 간 교류 확대",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=624790",
+      "date": "Mon, 09 Nov 2026 13:38:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "성남시청소년청년재단, '코칭문화 확산 우수기관' 선정",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5081247",
+      "date": "Mon, 09 Nov 2026 13:14:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
