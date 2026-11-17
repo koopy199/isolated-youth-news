@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-11-16T14:05:04.123+09:00",
+  "updated_at": "2026-11-17T15:52:50.916+09:00",
   "stats": {
     "사단법인 오늘은": 5,
-    "청년재단": 5,
+    "청년재단": 4,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
     "광명시 청년동": 5,
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 35,
+  "total": 34,
   "items": [
     {
       "title": "[청년의 소리] 청년을 머물게 하는 도시와 ‘일상의 창작’",
@@ -47,16 +47,23 @@
       "portal": "네이버"
     },
     {
-      "title": "대한비만연구의학회-청년재단, MOU 체결…“청소년·청년 비만, 예방이...",
-      "url": "https://medicalworldnews.co.kr/news/view.php?idx=1510978466",
-      "date": "Mon, 16 Nov 2026 13:10:00 +0900",
+      "title": "‘이런 삶 괜찮은건가’…청년들, 인문에서 삶의 답 찾는다",
+      "url": "https://www.joongang.co.kr/article/25479294",
+      "date": "Tue, 17 Nov 2026 09:24:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 청소년 정책 제안의 장 마련… 제10대 청소년의...",
-      "url": "https://www.ajunews.com/view/20261116105038758",
-      "date": "Mon, 16 Nov 2026 11:00:00 +0900",
+      "title": "이도경 청년재단 사무총장, 간첩법 개정 기여 공로패 수상",
+      "url": "https://www.joongang.co.kr/article/25479064",
+      "date": "Mon, 16 Nov 2026 17:18:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "이도경 청년재단 사무총장, 한국산업보안한림원 공로패 수상",
+      "url": "https://www.kmib.co.kr/article/20261116500775",
+      "date": "Mon, 16 Nov 2026 14:54:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -64,20 +71,6 @@
       "title": "[논산소식] 하반기 청년 전세자금 대출이자 지원 외",
       "url": "https://daily.hankooki.com/news/articleView.html?idxno=1425388",
       "date": "Mon, 16 Nov 2026 10:52:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "“수원청년들이 준비한 장터 어떠신가요”…수원청년상인회 ‘화홍장’...",
-      "url": "https://www.kyeonggi.com/article/20261116580126",
-      "date": "Mon, 16 Nov 2026 10:36:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "제주만의 특별한 '청년이어드림' 3년…막막한 청년의 내일을 잇다",
-      "url": "https://www.headlinejeju.co.kr/news/articleView.html?idxno=601856",
-      "date": "Mon, 16 Nov 2026 09:00:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -222,6 +215,13 @@
       "portal": "네이버"
     },
     {
+      "title": "한국티소믈리에연구원, 청년들의 마음돌봄과 쉼 위한 ‘차와 수면명상...",
+      "url": "https://www.gosiweek.com/article/1065592898979670",
+      "date": "Tue, 17 Nov 2026 15:04:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "벼랑 끝에서  엄마, 미안해 …은둔 청년들이 위험하다",
       "url": "https://www.nocutnews.co.kr/news/6606018?utm_source=naver&utm_medium=article&utm_campaign=20261116064953",
       "date": "Mon, 16 Nov 2026 05:11:00 +0900",
@@ -246,13 +246,6 @@
       "title": "오세훈  청년이 소속감·자부심 느끼도록 지원해야",
       "url": "http://www.inews24.com/view/2019443",
       "date": "Tue, 27 Oct 2026 14:05:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "오세훈  청년 자존감·관계 회복 정책 강화 ...청년 정책 발굴 주문",
-      "url": "https://www.ajunews.com/view/20261027113059661",
-      "date": "Tue, 27 Oct 2026 11:34:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
