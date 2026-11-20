@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-19T15:13:18.067+09:00",
+  "updated_at": "2026-11-20T14:58:22.734+09:00",
   "stats": {
-    "사단법인 오늘은": 4,
+    "사단법인 오늘은": 5,
     "청년재단": 5,
     "고민정거장": 5,
     "(주)안무서운회사": 5,
@@ -9,7 +9,7 @@
     "무브유어마인드": 5,
     "서울청년기지개센터": 5
   },
-  "total": 34,
+  "total": 35,
   "items": [
     {
       "title": "[청년의 소리] 청년을 머물게 하는 도시와 ‘일상의 창작’",
@@ -33,6 +33,13 @@
       "portal": "네이버"
     },
     {
+      "title": "안무서운회사·청년재단, 19개 기관과 맞손… 고립·은둔 청년 24명 일경...",
+      "url": "https://www.fnnews.com/news/202611021017132902",
+      "date": "Tue, 03 Nov 2026 10:01:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
+    {
       "title": "안무서운회사, 민간 단체와 고립·은둔 청년 일경험 ‘청년On Up(청년온...",
       "url": "https://www.khan.co.kr/article/202611030955018",
       "date": "Tue, 03 Nov 2026 09:55:00 +0900",
@@ -43,13 +50,6 @@
       "title": "성남시청소년청년재단, '2026 성남시 청소년안전망 운영보고회' 개최",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3757114",
       "date": "Thu, 19 Nov 2026 14:04:00 +0900",
-      "source": "청년재단",
-      "portal": "네이버"
-    },
-    {
-      "title": "월드휴먼브리지, 성남시와 청년정책 활성화 업무협약",
-      "url": "https://www.christiantoday.co.kr/news/378744",
-      "date": "Thu, 19 Nov 2026 13:54:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -72,6 +72,20 @@
       "url": "https://www.fnnews.com/news/202611181832588357",
       "date": "Wed, 18 Nov 2026 18:34:00 +0900",
       "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "부산신보·청년재단, 청년 소상공인 금융지원 맞손",
+      "url": "https://www.newsis.com/view/NISX20261118_0003873779",
+      "date": "Wed, 18 Nov 2026 17:02:00 +0900",
+      "source": "청년재단",
+      "portal": "네이버"
+    },
+    {
+      "title": "경기도, 고립·은둔 청년 사회복귀 지원 강화",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=247730",
+      "date": "Fri, 20 Nov 2026 12:30:00 +0900",
+      "source": "고민정거장",
       "portal": "네이버"
     },
     {
@@ -99,13 +113,6 @@
       "title": "경기도, 고립·은둔 청년 지원 성과 공유",
       "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2494420",
       "date": "Thu, 19 Nov 2026 09:12:00 +0900",
-      "source": "고민정거장",
-      "portal": "네이버"
-    },
-    {
-      "title": "청소년 지원 끝난 뒤엔 어디로?…성북구, '경계선 지능 청년' 지원 공백...",
-      "url": "https://www.job-post.co.kr/news/articleView.html?idxno=226023",
-      "date": "Thu, 03 Sep 2026 12:32:00 +0900",
       "source": "고민정거장",
       "portal": "네이버"
     },
