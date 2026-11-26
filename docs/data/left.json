@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T16:17:45.734+09:00",
+  "updated_at": "2026-11-26T16:06:09.488+09:00",
   "stats": {
     "사단법인 오늘은": 5,
     "청년재단": 5,
@@ -11,6 +11,13 @@
   },
   "total": 35,
   "items": [
+    {
+      "title": "[뉴스웍스 정책토론회①] 고립·은둔 청년 회복 이끈 주역들…국회서 정...",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904548",
+      "date": "Thu, 26 Nov 2026 16:00:00 +0900",
+      "source": "사단법인 오늘은",
+      "portal": "네이버"
+    },
     {
       "title": "[청년의 소리] 청년을 머물게 하는 도시와 ‘일상의 창작’",
       "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20261109.22021007764",
@@ -40,44 +47,37 @@
       "portal": "네이버"
     },
     {
-      "title": "안무서운회사, 민간 단체와 고립·은둔 청년 일경험 ‘청년On Up(청년온...",
-      "url": "https://www.khan.co.kr/article/202611030955018",
-      "date": "Tue, 03 Nov 2026 09:55:00 +0900",
-      "source": "사단법인 오늘은",
-      "portal": "네이버"
-    },
-    {
-      "title": "'2026 전북 별담 청년제', 내달 4일 전북대 학생타운서 개최",
-      "url": "https://www.etnews.com/20261125000211",
-      "date": "Wed, 25 Nov 2026 10:53:00 +0900",
+      "title": "청년재단 '잘나가는 커뮤니티', 자원봉사 유공 표창 수상",
+      "url": "http://www.finomy.com/news/articleView.html?idxno=268056",
+      "date": "Thu, 26 Nov 2026 15:34:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남 독립운동 역사, 게임으로 재탄생…청년들이 콘텐츠 개발",
-      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261125010009686",
-      "date": "Wed, 25 Nov 2026 09:46:00 +0900",
+      "title": "논산시의회, 38개 부서·읍면동·재단 행정사무감사…시정 전반 점검",
+      "url": "https://www.aflnews.co.kr/news/articleView.html?idxno=332479",
+      "date": "Thu, 26 Nov 2026 15:28:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "부산신보·청년재단, 소상공인 금융·창업 지원",
-      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8721927&ref=A",
-      "date": "Wed, 25 Nov 2026 09:41:00 +0900",
+      "title": "청년재단 ‘잘나가는 커뮤니티’, 서울시 자원봉사 유공자 표창",
+      "url": "https://www.kmib.co.kr/article/20261126500622",
+      "date": "Thu, 26 Nov 2026 14:23:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "성남시청소년청년재단, 초록우산과 1억247만 원 기부금 약정·업무협약...",
-      "url": "http://www.inews24.com/view/2029929",
-      "date": "Tue, 24 Nov 2026 16:52:00 +0900",
+      "title": "성남 청소년·청년 정책 이끌 능력자 모십니다",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20261126010010290",
+      "date": "Thu, 26 Nov 2026 14:14:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
     {
-      "title": "구로구, G밸리 재직청년 위한 ‘휴가지 원격 근무 지원 사업’ 성료",
-      "url": "https://www.munhwa.com/article/11633596?ref=naver",
-      "date": "Tue, 24 Nov 2026 10:34:00 +0900",
+      "title": "청년재단 ‘잘나가는 커뮤니티’, 서울시 자원봉사 표창…고립·은둔 청...",
+      "url": "http://www.segyebiz.com/newsView/20261126511179?OutUrl=naver",
+      "date": "Thu, 26 Nov 2026 14:06:00 +0900",
       "source": "청년재단",
       "portal": "네이버"
     },
@@ -117,6 +117,13 @@
       "portal": "네이버"
     },
     {
+      "title": "[뉴스웍스 정책토론회①] 고립·은둔 청년 회복 이끈 주역들…국회서 정...",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904548",
+      "date": "Thu, 26 Nov 2026 16:00:00 +0900",
+      "source": "(주)안무서운회사",
+      "portal": "네이버"
+    },
+    {
       "title": "[알립니다] '2026 고립·은둔청년 국회 토론회 및 정책대상' 오는 26일 개...",
       "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=903901",
       "date": "Mon, 23 Nov 2026 08:00:00 +0900",
@@ -141,13 +148,6 @@
       "title": "고립·은둔 청년 24명, 민관 19곳서 3개월 일경험… 나눔·구호·사회적...",
       "url": "https://www.donga.com/news/Economy/article/all/20261102/134949060/1",
       "date": "Tue, 03 Nov 2026 10:01:00 +0900",
-      "source": "(주)안무서운회사",
-      "portal": "네이버"
-    },
-    {
-      "title": "안무서운회사, 민간 단체와 고립·은둔 청년 일경험 ‘청년On Up(청년온...",
-      "url": "https://www.khan.co.kr/article/202611030955018",
-      "date": "Tue, 03 Nov 2026 09:55:00 +0900",
       "source": "(주)안무서운회사",
       "portal": "네이버"
     },
@@ -222,6 +222,13 @@
       "portal": "네이버"
     },
     {
+      "title": "[뉴스웍스 정책토론회①] 고립·은둔 청년 회복 이끈 주역들…국회서 정...",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=904548",
+      "date": "Thu, 26 Nov 2026 16:00:00 +0900",
+      "source": "서울청년기지개센터",
+      "portal": "네이버"
+    },
+    {
       "title": "[알립니다] '2026 고립·은둔청년 국회 토론회 및 정책대상' 오는 26일 개...",
       "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=903901",
       "date": "Mon, 23 Nov 2026 08:00:00 +0900",
@@ -246,13 +253,6 @@
       "title": "벼랑 끝에서  엄마, 미안해 …은둔 청년들이 위험하다",
       "url": "https://www.nocutnews.co.kr/news/6606018?utm_source=naver&utm_medium=article&utm_campaign=20261116064953",
       "date": "Mon, 16 Nov 2026 05:11:00 +0900",
-      "source": "서울청년기지개센터",
-      "portal": "네이버"
-    },
-    {
-      "title": "'고립 청년 위한 인문학'…서울청년기지개센터 미술 강연 눈길",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3734761",
-      "date": "Wed, 28 Oct 2026 08:50:00 +0900",
       "source": "서울청년기지개센터",
       "portal": "네이버"
     }
